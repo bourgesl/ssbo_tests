@@ -1,0 +1,515 @@
+java EllipseFillHangAAOnOff 
+RenderingEngine = sun.java2d.marlin.DMarlinRenderingEngine@7ba4f24f
+AAShapePipe: TILE_PADDING = false
+USE_OPTIMIZE_FILL: true
+Unsafe.ARRAY_BYTE_BASE_OFFSET: 16
+EllipseFillParallelTest: size = 1000
+SKIP_CLEAR_DIRECT: true
+COPY_8:            true
+COPY_4:            true
+MASK_BUFFER_REGION_COUNT: 4
+MASK_BUFFER_REGION_SIZE: 65536
+MASK_BUFFER_SIZE: 262144
+Vertices per Area: 680
+GLSL 140 path
+MID: 1819140608
+Buffer address from java: 1940254720
+9339506904210 : placing fence for:0 waiting for: -1
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX waiting for fence on region 2, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+QueueMaskBufferFence: create fence on region 0
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX waiting for fence on region 1, vtxPer: 680
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 0
+VTX Sync needed for region 2
+MASK Sync needed for region 0
+9339515199776 : Fence available: 0
+FlushMaskCache(sync) do sync: done
+paint[0]: duration= 40.828564 ms.
+9339533742943 : placing fence for:1 waiting for: -1
+9339540364921 : placing fence for:2 waiting for: -1
+QueueMaskBufferFence: create fence on region 1
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX waiting for fence on region 1, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX waiting for fence on region 2, vtxPer: 680
+QueueMaskBufferFence: create fence on region 2
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 1
+VTX Sync needed for region 2
+MASK Sync needed for region 1
+9339542986912 : Fence available: 1
+MASK Sync needed for region 2
+9339543112409 : Fence available: 2
+FlushMaskCache(sync) do sync: done
+paint[1]: duration= 10.540514 ms.
+9339555250398 : placing fence for:3 waiting for: -1
+9339559096888 : placing fence for:0 waiting for: -1
+queueMaskQuad: VTX adding sync on region 0
+QueueMaskBufferFence: create fence on region 3
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX waiting for fence on region 1, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX waiting for fence on region 2, vtxPer: 680
+QueueMaskBufferFence: create fence on region 0
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 0
+VTX Sync needed for region 1
+MASK Sync needed for region 0
+9339560415360 : Fence available: 0
+MASK Sync needed for region 3
+9339560479553 : Fence available: 3
+FlushMaskCache(sync) do sync: done
+paint[2]: duration= 6.534993 ms.
+9339569834823 : placing fence for:1 waiting for: -1
+9339571481406 : placing fence for:2 waiting for: -1
+queueMaskQuad: VTX adding sync on region 2
+QueueMaskBufferFence: create fence on region 1
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX waiting for fence on region 2, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX waiting for fence on region 1, vtxPer: 680
+QueueMaskBufferFence: create fence on region 2
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 0
+VTX Sync needed for region 2
+MASK Sync needed for region 1
+9339572356600 : Fence available: 1
+MASK Sync needed for region 2
+9339572426315 : Fence available: 2
+FlushMaskCache(sync) do sync: done
+paint[3]: duration= 3.5440929999999997 ms.
+9339578596459 : placing fence for:3 waiting for: -1
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX adding sync on region 2
+QueueMaskBufferFence: create fence on region 3
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX waiting for fence on region 1, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX waiting for fence on region 2, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 1
+VTX Sync needed for region 2
+MASK Sync needed for region 3
+9339580413240 : Fence available: 3
+FlushMaskCache(sync) do sync: done
+paint[4]: duration= 3.08194 ms.
+9339586661270 : placing fence for:0 waiting for: -1
+9339588320086 : placing fence for:1 waiting for: -1
+QueueMaskBufferFence: create fence on region 0
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+QueueMaskBufferFence: create fence on region 1
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX waiting for fence on region 1, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX waiting for fence on region 2, vtxPer: 680
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 0
+VTX Sync needed for region 1
+MASK Sync needed for region 0
+9339589634919 : Fence available: 0
+MASK Sync needed for region 1
+9339589701837 : Fence available: 1
+FlushMaskCache(sync) do sync: done
+paint[5]: duration= 3.374482 ms.
+9339594695929 : placing fence for:2 waiting for: -1
+9339596002150 : placing fence for:3 waiting for: -1
+QueueMaskBufferFence: create fence on region 2
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX waiting for fence on region 2, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+QueueMaskBufferFence: create fence on region 3
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX waiting for fence on region 1, vtxPer: 680
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 0
+VTX Sync needed for region 2
+MASK Sync needed for region 2
+9339596914006 : Fence available: 2
+MASK Sync needed for region 3
+9339596974642 : Fence available: 3
+FlushMaskCache(sync) do sync: done
+paint[6]: duration= 2.709313 ms.
+9339602126960 : placing fence for:0 waiting for: -1
+9339603448243 : placing fence for:1 waiting for: -1
+QueueMaskBufferFence: create fence on region 0
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX waiting for fence on region 1, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX waiting for fence on region 2, vtxPer: 680
+QueueMaskBufferFence: create fence on region 1
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 1
+VTX Sync needed for region 2
+MASK Sync needed for region 0
+9339604201801 : Fence available: 0
+MASK Sync needed for region 1
+9339604264294 : Fence available: 1
+FlushMaskCache(sync) do sync: done
+paint[7]: duration= 2.732695 ms.
+9339609722020 : placing fence for:2 waiting for: -1
+9339610939064 : placing fence for:3 waiting for: -1
+queueMaskQuad: VTX adding sync on region 0
+QueueMaskBufferFence: create fence on region 2
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX waiting for fence on region 1, vtxPer: 680
+QueueMaskBufferFence: create fence on region 3
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 0
+VTX Sync needed for region 2
+MASK Sync needed for region 2
+9339611936187 : Fence available: 2
+MASK Sync needed for region 3
+9339612009024 : Fence available: 3
+FlushMaskCache(sync) do sync: done
+paint[8]: duration= 3.124268 ms.
+9339619321102 : placing fence for:0 waiting for: -1
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX waiting for fence on region 1, vtxPer: 680
+QueueMaskBufferFence: create fence on region 0
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX waiting for fence on region 2, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 1
+VTX Sync needed for region 2
+MASK Sync needed for region 0
+9339620709310 : Fence available: 0
+FlushMaskCache(sync) do sync: done
+paint[9]: duration= 2.690099 ms.
+9339625871783 : placing fence for:1 waiting for: -1
+9339627149532 : placing fence for:2 waiting for: -1
+QueueMaskBufferFence: create fence on region 1
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX waiting for fence on region 1, vtxPer: 680
+QueueMaskBufferFence: create fence on region 2
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX waiting for fence on region 2, vtxPer: 680
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 0
+VTX Sync needed for region 1
+MASK Sync needed for region 1
+9339628186863 : Fence available: 1
+MASK Sync needed for region 2
+9339628255150 : Fence available: 2
+FlushMaskCache(sync) do sync: done
+paint[10]: duration= 2.710649 ms.
+9339633438025 : placing fence for:3 waiting for: -1
+9339634796125 : placing fence for:0 waiting for: -1
+QueueMaskBufferFence: create fence on region 3
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX waiting for fence on region 2, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX waiting for fence on region 1, vtxPer: 680
+QueueMaskBufferFence: create fence on region 0
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 0
+VTX Sync needed for region 2
+MASK Sync needed for region 0
+9339635708323 : Fence available: 0
+MASK Sync needed for region 3
+9339635776677 : Fence available: 3
+FlushMaskCache(sync) do sync: done
+paint[11]: duration= 2.848191 ms.
+9339641145665 : placing fence for:1 waiting for: -1
+9339642464625 : placing fence for:2 waiting for: -1
+queueMaskQuad: VTX adding sync on region 1
+QueueMaskBufferFence: create fence on region 1
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX waiting for fence on region 1, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX waiting for fence on region 2, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+QueueMaskBufferFence: create fence on region 2
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 1
+VTX Sync needed for region 2
+MASK Sync needed for region 1
+9339643148658 : Fence available: 1
+MASK Sync needed for region 2
+9339643198595 : Fence available: 2
+FlushMaskCache(sync) do sync: done
+paint[12]: duration= 2.715112 ms.
+9339649499844 : placing fence for:3 waiting for: -1
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX adding sync on region 1
+QueueMaskBufferFence: create fence on region 3
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX waiting for fence on region 1, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX waiting for fence on region 2, vtxPer: 680
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 0
+VTX Sync needed for region 1
+MASK Sync needed for region 3
+9339651270060 : Fence available: 3
+FlushMaskCache(sync) do sync: done
+paint[13]: duration= 2.797312 ms.
+9339655710461 : placing fence for:0 waiting for: -1
+9339656882267 : placing fence for:1 waiting for: -1
+QueueMaskBufferFence: create fence on region 0
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX waiting for fence on region 2, vtxPer: 680
+QueueMaskBufferFence: create fence on region 1
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX waiting for fence on region 1, vtxPer: 680
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 0
+VTX Sync needed for region 2
+MASK Sync needed for region 0
+9339658188754 : Fence available: 0
+MASK Sync needed for region 1
+9339658258770 : Fence available: 1
+FlushMaskCache(sync) do sync: done
+paint[14]: duration= 2.8464959999999997 ms.
+9339662621826 : placing fence for:2 waiting for: -1
+9339663937409 : placing fence for:3 waiting for: -1
+QueueMaskBufferFence: create fence on region 2
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX waiting for fence on region 1, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX waiting for fence on region 2, vtxPer: 680
+QueueMaskBufferFence: create fence on region 3
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 1
+VTX Sync needed for region 2
+MASK Sync needed for region 2
+9339664959253 : Fence available: 2
+MASK Sync needed for region 3
+9339665023178 : Fence available: 3
+FlushMaskCache(sync) do sync: done
+paint[15]: duration= 2.786556 ms.
+9339669512329 : placing fence for:0 waiting for: -1
+9339670871218 : placing fence for:1 waiting for: -1
+QueueMaskBufferFence: create fence on region 0
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX waiting for fence on region 1, vtxPer: 680
+QueueMaskBufferFence: create fence on region 1
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 0
+VTX Sync needed for region 2
+MASK Sync needed for region 0
+9339671547898 : Fence available: 0
+MASK Sync needed for region 1
+9339671618785 : Fence available: 1
+FlushMaskCache(sync) do sync: done
+paint[16]: duration= 2.634391 ms.
+9339676626970 : placing fence for:2 waiting for: -1
+9339679275725 : placing fence for:3 waiting for: -1
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX adding sync on region 2
+QueueMaskBufferFence: create fence on region 2
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX waiting for fence on region 1, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX waiting for fence on region 2, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+QueueMaskBufferFence: create fence on region 3
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 1
+VTX Sync needed for region 2
+MASK Sync needed for region 2
+9339679903053 : Fence available: 2
+MASK Sync needed for region 3
+9339679966712 : Fence available: 3
+FlushMaskCache(sync) do sync: done
+paint[17]: duration= 4.260403 ms.
+9339685378490 : placing fence for:0 waiting for: -1
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+QueueMaskBufferFence: create fence on region 0
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX waiting for fence on region 1, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX waiting for fence on region 2, vtxPer: 680
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 0
+VTX Sync needed for region 1
+MASK Sync needed for region 0
+9339687025811 : Fence available: 0
+FlushMaskCache(sync) do sync: done
+paint[18]: duration= 3.002159 ms.
+9339691329777 : placing fence for:1 waiting for: -1
+9339692678831 : placing fence for:2 waiting for: -1
+QueueMaskBufferFence: create fence on region 1
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX waiting for fence on region 2, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+QueueMaskBufferFence: create fence on region 2
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX waiting for fence on region 1, vtxPer: 680
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 0
+VTX Sync needed for region 2
+MASK Sync needed for region 1
+9339693704023 : Fence available: 1
+MASK Sync needed for region 2
+9339693771432 : Fence available: 2
+FlushMaskCache(sync) do sync: done
+paint[19]: duration= 2.776182 ms.
+9339698288249 : placing fence for:3 waiting for: -1
+9339700022954 : placing fence for:0 waiting for: -1
+QueueMaskBufferFence: create fence on region 3
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX waiting for fence on region 1, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX waiting for fence on region 2, vtxPer: 680
+QueueMaskBufferFence: create fence on region 0
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 1
+VTX Sync needed for region 2
+MASK Sync needed for region 0
+9339700854655 : Fence available: 0
+MASK Sync needed for region 3
+9339700925128 : Fence available: 3
+FlushMaskCache(sync) do sync: done
+paint[20]: duration= 3.07921 ms.
+9339707294943 : placing fence for:1 waiting for: -1
+9339710001406 : placing fence for:2 waiting for: -1
+queueMaskQuad: VTX adding sync on region 0
+QueueMaskBufferFence: create fence on region 1
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX waiting for fence on region 1, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX waiting for fence on region 2, vtxPer: 680
+QueueMaskBufferFence: create fence on region 2
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 0
+VTX Sync needed for region 1
+MASK Sync needed for region 1
+9339711109033 : Fence available: 1
+MASK Sync needed for region 2
+9339711171519 : Fence available: 2
+FlushMaskCache(sync) do sync: done
+paint[21]: duration= 4.971477999999999 ms.
+9339716272962 : placing fence for:3 waiting for: -1
+queueMaskQuad: VTX adding sync on region 2
+QueueMaskBufferFence: create fence on region 3
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX waiting for fence on region 2, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX waiting for fence on region 1, vtxPer: 680
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 0
+VTX Sync needed for region 2
+MASK Sync needed for region 3
+9339717889069 : Fence available: 3
+FlushMaskCache(sync) do sync: done
+paint[22]: duration= 2.6077749999999997 ms.
+9339722432965 : placing fence for:0 waiting for: -1
+9339723738296 : placing fence for:1 waiting for: -1
+QueueMaskBufferFence: create fence on region 0
+createFence: WARNING: glFenceSync() returns null (fenceCount = 0)
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX waiting for fence on region 1, vtxPer: 680
+QueueMaskBufferFence: create fence on region 1
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX waiting for fence on region 2, vtxPer: 680
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 1
+VTX Sync needed for region 2
+MASK Sync needed for region 1
+9339725000516 : Fence available: 1
+FlushMaskCache(sync) do sync: done
+paint[23]: duration= 2.869313 ms.
+9339729652410 : placing fence for:2 waiting for: 0
+9339731009749 : placing fence for:3 waiting for: -1
+9339731272043 : explicit flush: waiting for fence on: 0
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: WARNING: wait already done on region 0
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX adding sync on region 1
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+QueueMaskBufferFence: create fence on region 3
+9339731569904 : explicit flush: waiting for fence on: 0
+Exception in thread "main" java.lang.RuntimeException: Aborting fence stall on region: 0
+	at java.desktop/sun.java2d.opengl.OGLMaskBuffer.allocateMaskData(OGLMaskBuffer.java:179)
+	at java.desktop/sun.java2d.marlin.MarlinTileGenerator.getAlphaRLE(MarlinTileGenerator.java:425)
+	at java.desktop/sun.java2d.marlin.MarlinTileGenerator.getAlphaDirect(MarlinTileGenerator.java:216)
+	at java.desktop/sun.java2d.pipe.AAShapePipe.renderTiles(AAShapePipe.java:212)
+	at java.desktop/sun.java2d.pipe.AAShapePipe.renderPath(AAShapePipe.java:156)
+	at java.desktop/sun.java2d.pipe.AAShapePipe.fill(AAShapePipe.java:89)
+	at java.desktop/sun.java2d.pipe.PixelToParallelogramConverter.fill(PixelToParallelogramConverter.java:164)
+	at java.desktop/sun.java2d.pipe.PixelToShapeConverter.fillOval(PixelToShapeConverter.java:84)
+	at java.desktop/sun.java2d.pipe.ValidatePipe.fillOval(ValidatePipe.java:108)
+	at java.desktop/sun.java2d.SunGraphics2D.fillOval(SunGraphics2D.java:2306)
+	at EllipseFillHangAAOnOff.main(EllipseFillHangAAOnOff.java:100)
+

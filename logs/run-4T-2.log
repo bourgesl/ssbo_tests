@@ -1,0 +1,3500 @@
+INFO: ===============================================================================
+INFO: Marlin software rasterizer           = ENABLED
+INFO: Version                              = [marlin-0.9.1.4-Unsafe-OpenJDK]
+INFO: sun.java2d.renderer                  = sun.java2d.marlin.DMarlinRenderingEngine
+INFO: sun.java2d.renderer.useThreadLocal   = true
+INFO: sun.java2d.renderer.useRef           = soft
+INFO: sun.java2d.renderer.edges            = 4096
+INFO: sun.java2d.renderer.pixelWidth       = 4096
+INFO: sun.java2d.renderer.pixelHeight      = 2176
+INFO: sun.java2d.renderer.subPixel_log2_X  = 8
+INFO: sun.java2d.renderer.subPixel_log2_Y  = 3
+INFO: sun.java2d.renderer.tileSize_log2    = 7
+INFO: sun.java2d.renderer.tileWidth_log2   = 7
+INFO: sun.java2d.renderer.blockSize_log2   = 5
+INFO: sun.java2d.renderer.forceRLE         = false
+INFO: sun.java2d.renderer.forceNoRLE       = false
+INFO: sun.java2d.renderer.useTileFlags     = true
+INFO: sun.java2d.renderer.useTileFlags.useHeuristics = true
+INFO: sun.java2d.renderer.rleMinWidth      = 64
+INFO: sun.java2d.renderer.useSimplifier    = false
+INFO: sun.java2d.renderer.usePathSimplifier= false
+INFO: sun.java2d.renderer.pathSimplifier.pixTol = 0.125
+INFO: sun.java2d.renderer.clip             = true
+INFO: sun.java2d.renderer.clip.runtime.enable = false
+INFO: sun.java2d.renderer.clip.subdivider  = true
+INFO: sun.java2d.renderer.clip.subdivider.minLength = 100.0
+INFO: sun.java2d.renderer.doStats          = false
+INFO: sun.java2d.renderer.doMonitors       = false
+INFO: sun.java2d.renderer.doChecks         = false
+INFO: sun.java2d.renderer.useLogger        = false
+INFO: sun.java2d.renderer.logCreateContext = false
+INFO: sun.java2d.renderer.logUnsafeMalloc  = false
+INFO: sun.java2d.renderer.curve_len_err    = 0.01
+INFO: sun.java2d.renderer.cubic_dec_d2     = 1.0
+INFO: sun.java2d.renderer.cubic_inc_d1     = 0.2
+INFO: sun.java2d.renderer.quad_dec_d2      = 0.5
+INFO: Renderer settings:
+INFO: CUB_DEC_BND  = 256.0
+INFO: CUB_INC_BND  = 51.20000076293945
+INFO: QUAD_DEC_BND = 128.0
+INFO: INITIAL_EDGES_CAPACITY               = 98304
+INFO: INITIAL_CROSSING_COUNT               = 1024
+INFO: ===============================================================================
+RenderingEngine = sun.java2d.marlin.DMarlinRenderingEngine@b4c966a
+AAShapePipe: TILE_PADDING = false
+USE_OPTIMIZE_FILL: true
+Unsafe.ARRAY_BYTE_BASE_OFFSET: 16
+EllipseFillParallelTest: size = 1000
+SKIP_CLEAR_DIRECT: true
+COPY_8:            true
+COPY_4:            true
+MASK_BUFFER_REGION_COUNT: 4
+MASK_BUFFER_REGION_SIZE: 65536
+MASK_BUFFER_SIZE: 262144
+12696834261653 : placing fence for:0 waiting for: -1
+12696837813128 : placing fence for:1 waiting for: -1
+12696838230234 : placing fence for:2 waiting for: 0
+12696838610598 : placing fence for:3 waiting for: 1
+12696838768926 : explicit flush: waiting for fence on: 0
+12696839234286 : Fence available: 0
+12696839302458 : Fence available: 1
+12696839746009 : placing fence for:0 waiting for: 2
+12696840058248 : placing fence for:1 waiting for: 3
+12696840121100 : explicit flush: waiting for fence on: 2
+12696840213670 : Fence available: 2
+12696840283232 : Fence available: 3
+12696840707130 : placing fence for:2 waiting for: 0
+12696841039042 : placing fence for:3 waiting for: 1
+12696841094530 : explicit flush: waiting for fence on: 0
+12696841179525 : Fence available: 0
+12696841233623 : Fence available: 1
+12696841597169 : placing fence for:0 waiting for: 2
+12696842911642 : placing fence for:1 waiting for: 3
+12696842961588 : explicit flush: waiting for fence on: 2
+12696843075203 : Fence available: 2
+12696843147657 : Fence available: 3
+12696844393324 : placing fence for:2 waiting for: 0
+12696845854791 : placing fence for:3 waiting for: 1
+12696845906038 : explicit flush: waiting for fence on: 0
+12696845991112 : Fence available: 0
+12696846052072 : Fence available: 1
+12696848145061 : placing fence for:0 waiting for: 2
+12696850026145 : placing fence for:1 waiting for: 3
+12696850081164 : explicit flush: waiting for fence on: 2
+12696850206285 : Fence available: 2
+12696850288644 : Fence available: 3
+12696852123052 : placing fence for:2 waiting for: 0
+12696853130216 : placing fence for:3 waiting for: 1
+12696853200840 : explicit flush: waiting for fence on: 0
+12696853284374 : Fence available: 0
+12696853334772 : Fence available: 1
+12696854362211 : placing fence for:0 waiting for: 2
+12696855976839 : placing fence for:1 waiting for: 3
+12696856014050 : explicit flush: waiting for fence on: 2
+12696856092482 : Fence available: 2
+12696856143729 : Fence available: 3
+12696856300248 : placing fence for:2 waiting for: 0
+12696857229618 : placing fence for:3 waiting for: 1
+12696857293440 : explicit flush: waiting for fence on: 0
+12696857393014 : Fence available: 0
+12696857462520 : Fence available: 1
+12696858290361 : placing fence for:0 waiting for: 2
+12696859234253 : placing fence for:1 waiting for: 3
+12696859272635 : explicit flush: waiting for fence on: 2
+12696859417815 : Fence available: 2
+12696859481085 : Fence available: 3
+12696861257017 : placing fence for:2 waiting for: 0
+12696861768024 : placing fence for:3 waiting for: 1
+12696861807442 : explicit flush: waiting for fence on: 0
+12696861919879 : Fence available: 0
+12696861981854 : Fence available: 1
+12696862428319 : placing fence for:0 waiting for: 2
+12696862576052 : placing fence for:1 waiting for: 3
+12696862624001 : explicit flush: waiting for fence on: 2
+12696862701856 : Fence available: 2
+12696862749766 : Fence available: 3
+12696863219456 : placing fence for:2 waiting for: 0
+12696864079531 : placing fence for:3 waiting for: 1
+12696864115774 : explicit flush: waiting for fence on: 0
+12696864224462 : Fence available: 0
+12696864292808 : Fence available: 1
+12696864816496 : placing fence for:0 waiting for: 2
+12696864968294 : placing fence for:1 waiting for: 3
+12696865006063 : explicit flush: waiting for fence on: 2
+12696865109853 : Fence available: 2
+12696865180419 : Fence available: 3
+12696865813941 : Fence available: 0
+12696865868232 : Fence available: 1
+paint[0]: duration= 51.213468999999996 ms.
+12696894486947 : placing fence for:2 waiting for: -1
+12696895706939 : placing fence for:3 waiting for: -1
+12696896588326 : placing fence for:0 waiting for: 2
+12696896832140 : placing fence for:1 waiting for: 3
+12696896868202 : explicit flush: waiting for fence on: 2
+12696897069916 : Fence available: 2
+12696897140780 : Fence available: 3
+12696897793816 : placing fence for:2 waiting for: 0
+12696898678303 : placing fence for:3 waiting for: 1
+12696898722124 : explicit flush: waiting for fence on: 0
+12696898807773 : Fence available: 0
+12696898868530 : Fence available: 1
+12696899546248 : placing fence for:0 waiting for: 2
+12696899937638 : placing fence for:1 waiting for: 3
+12696899984429 : explicit flush: waiting for fence on: 2
+12696900065414 : Fence available: 2
+12696900122567 : Fence available: 3
+12696900914786 : placing fence for:2 waiting for: 0
+12696901065925 : placing fence for:3 waiting for: 1
+12696901135932 : explicit flush: waiting for fence on: 0
+12696901243508 : Fence available: 0
+12696901302441 : Fence available: 1
+12696901937423 : placing fence for:0 waiting for: 2
+12696902168369 : placing fence for:1 waiting for: 3
+12696902253522 : explicit flush: waiting for fence on: 2
+12696902360116 : Fence available: 2
+12696902420343 : Fence available: 3
+12696902731682 : placing fence for:2 waiting for: 0
+12696903123399 : placing fence for:3 waiting for: 1
+12696903189911 : explicit flush: waiting for fence on: 0
+12696903296989 : Fence available: 0
+12696903378077 : Fence available: 1
+12696903866830 : placing fence for:0 waiting for: 2
+12696904252162 : placing fence for:1 waiting for: 3
+12696904297631 : explicit flush: waiting for fence on: 2
+Vertices per Area: 680
+GLSL 140 path
+MID: 1816988736
+Buffer address from java: 1916039168
+queueMaskQuad: VTX adding sync on region 2
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+queueMaskQuad: VTX adding sync on region 0
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 0
+VTX Sync needed for region 2
+MASK Sync needed for region 0
+MASK Sync needed for region 1
+FlushMaskCache(sync) do sync: done
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: create fence on region 3
+queueMaskQuad: VTX adding sync on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBuff12696904403229 : Fence available: 2
+12696904480146 : Fence available: 3
+12696904879168 : placing fence for:2 waiting for: 0
+12696905584257 : placing fence for:3 waiting for: 1
+12696905627758 : explicit flush: waiting for fence on: 0
+12696906032378 : Fence available: 0
+12696906088148 : Fence available: 1
+12696906434554 : placing fence for:0 waiting for: 2
+12696906589231 : placing fence for:1 waiting for: 3
+12696906623120 : explicit flush: waiting for fence on: 2
+12696906704552 : Fence available: 2
+12696906750853 : Fence available: 3
+12696907260803 : placing fence for:2 waiting for: 0
+12696907411523 : placing fence for:3 waiting for: 1
+12696907445352 : explicit flush: waiting for fence on: 0
+12696907522432 : Fence available: 0
+12696908030979 : Fence available: 1
+12696908408810 : placing fence for:0 waiting for: 2
+12696908715838 : placing fence for:1 waiting for: 3
+12696908758240 : explicit flush: waiting for fence on: 2
+12696908848390 : Fence available: 2
+12696908894703 : Fence available: 3
+12696909306665 : placing fence for:2 waiting for: 0
+12696909422635 : placing fence for:3 waiting for: 1
+12696909465923 : explicit flush: waiting for fence on: 0
+12696909569039 : Fence available: 0
+12696909635021 : Fence available: 1
+12696909760213 : placing fence for:0 waiting for: 2
+12696910200344 : placing fence for:1 waiting for: 3
+12696910228611 : explicit flush: waiting for fence on: 2
+12696910296099 : Fence available: 2
+12696910345733 : Fence available: 3
+12696910951423 : placing fence for:2 waiting for: 0
+12696911200880 : placing fence for:3 waiting for: 1
+12696911238601 : explicit flush: waiting for fence on: 0
+12696911327463 : Fence available: 0
+12696911412199 : Fence available: 1
+12696912827046 : placing fence for:0 waiting for: 2
+12696913206926 : placing fence for:1 waiting for: 3
+12696913259524 : explicit flush: waiting for fence on: 2
+12696913345190 : Fence available: 2
+12696913389588 : Fence available: 3
+12696913657967 : placing fence for:2 waiting for: 0
+12696913906641 : placing fence for:3 waiting for: 1
+12696913957471 : explicit flush: waiting for fence on: 0
+12696914051882 : Fence available: 0
+12696914142458 : Fence available: 1
+12696914523188 : placing fence for:0 waiting for: 2
+12696914887249 : placing fence for:1 waiting for: 3
+12696914940466 : explicit flush: waiting for fence on: 2
+12696920985023 : Fence available: 2
+12696921114293 : Fence available: 3
+12696921816059 : placing fence for:2 waiting for: 0
+12696921980747 : placing fence for:3 waiting for: 1
+12696922013239 : explicit flush: waiting for fence on: 0
+12696922111433 : Fence available: 0
+12696922155659 : Fence available: 1
+12696922549781 : placing fence for:0 waiting for: 2
+12696923181489 : placing fence for:1 waiting for: 3
+12696923219397 : explicit flush: waiting for fence on: 2
+12696923317944 : Fence available: 2
+12696923362643 : Fence available: 3
+12696923780117 : placing fence for:2 waiting for: 0
+12696924102648 : placing fence for:3 waiting for: 1
+12696924134062 : explicit flush: waiting for fence on: 0
+12696924235711 : Fence available: 0
+12696924322435 : Fence available: 1
+12696924486717 : placing fence for:0 waiting for: 2
+12696924757365 : placing fence for:1 waiting for: 3
+12696924788936 : explicit flush: waiting for fence on: 2
+12696924866857 : Fence available: 2
+12696924961726 : Fence available: 3
+12696925372311 : Fence available: 0
+12696925423675 : Fence available: 1
+paint[1]: duration= 35.045454 ms.
+Counts: blue = 3137428 white = 848143 others = 14429
+Writing file: /home/marlin/ssbo/EllipseFillParallelTest-1.png
+12697468799085 : placing fence for:2 waiting for: -1
+12697469336085 : placing fence for:3 waiting for: -1
+12697469802601 : placing fence for:0 waiting for: 2
+12697469933103 : placing fence for:1 waiting for: 3
+12697470038560 : explicit flush: waiting for fence on: 2
+12697470296614 : Fence available: 2
+12697470358660 : Fence available: 3
+12697470773970 : placing fence for:2 waiting for: 0
+12697470834403 : placing fence for:3 waiting for: 1
+12697470867452 : explicit flush: waiting for fence on: 0
+12697470973679 : Fence available: 0
+12697471036042 : Fence available: 1
+12697471786819 : placing fence for:0 waiting for: 2
+12697472250343 : placing fence for:1 waiting for: 3
+12697472280020 : explicit flush: waiting for fence on: 2
+12697472355813 : Fence available: 2
+12697472405442 : Fence available: 3
+12697472690521 : placing fence for:2 waiting for: 0
+12697472732387 : placing fence for:3 waiting for: 1
+12697472770123 : explicit flush: waiting for fence on: 0
+12697472842107 : Fence available: 0
+12697472892769 : Fence available: 1
+12697473935668 : placing fence for:0 waiting for: 2
+12697474132232 : placing fence for:1 waiting for: 3
+12697474176027 : explicit flush: waiting for fence on: 2
+12697474253489 : Fence available: 2
+12697474297834 : Fence available: 3
+12697474613835 : placing fence for:2 waiting for: 0
+12697475055569 : placing fence for:3 waiting for: 1
+12697475083069 : explicit flush: waiting for fence on: 0
+12697475160148 : Fence available: 0
+12697475208954 : Fence available: 1
+12697475333649 : placing fence for:0 waiting for: 2
+12697476036433 : placing fence for:1 waiting for: 3
+12697476077587 : explicit flush: waiting for fence on: 2
+erFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+queueMaskQuad: VTX adding sync on region 2
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX waiting for fence on region 1, vtxPer: 680
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 0
+VTX Sync needed for region 2
+MASK Sync needed for region 0
+MASK Sync needed for region 1
+FlushMaskCache(sync) do sync: done
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+queueMaskQuad: VTX adding sync on region 1
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: w12697476227827 : Fence available: 2
+12697476282557 : Fence available: 3
+12697476924829 : placing fence for:2 waiting for: 0
+12697477015260 : placing fence for:3 waiting for: 1
+12697477056210 : explicit flush: waiting for fence on: 0
+12697477158577 : Fence available: 0
+12697477225416 : Fence available: 1
+12697477395527 : placing fence for:0 waiting for: 2
+12697477444287 : placing fence for:1 waiting for: 3
+12697477466396 : explicit flush: waiting for fence on: 2
+12697477559276 : Fence available: 2
+12697477617916 : Fence available: 3
+12697477819924 : placing fence for:2 waiting for: 0
+12697478100235 : placing fence for:3 waiting for: 1
+12697478134448 : explicit flush: waiting for fence on: 0
+12697478200335 : Fence available: 0
+12697478242165 : Fence available: 1
+12697478306026 : placing fence for:0 waiting for: 2
+12697478421766 : placing fence for:1 waiting for: 3
+12697478496035 : explicit flush: waiting for fence on: 2
+12697478592883 : Fence available: 2
+12697478657459 : Fence available: 3
+12697478745574 : placing fence for:2 waiting for: 0
+12697478921476 : placing fence for:3 waiting for: 1
+12697478967558 : explicit flush: waiting for fence on: 0
+12697479045935 : Fence available: 0
+12697479107663 : Fence available: 1
+12697479184156 : placing fence for:0 waiting for: 2
+12697480246191 : placing fence for:1 waiting for: 3
+12697480298953 : explicit flush: waiting for fence on: 2
+12697480364756 : Fence available: 2
+12697480407327 : Fence available: 3
+12697480584323 : placing fence for:2 waiting for: 0
+12697480874420 : placing fence for:3 waiting for: 1
+12697480921390 : explicit flush: waiting for fence on: 0
+12697480994513 : Fence available: 0
+12697481048589 : Fence available: 1
+12697481817691 : placing fence for:0 waiting for: 2
+12697482026306 : placing fence for:1 waiting for: 3
+12697482110161 : explicit flush: waiting for fence on: 2
+12697482212234 : Fence available: 2
+12697482257358 : Fence available: 3
+12697482567706 : placing fence for:2 waiting for: 0
+12697482786055 : placing fence for:3 waiting for: 1
+12697482825609 : explicit flush: waiting for fence on: 0
+12697482891179 : Fence available: 0
+12697482936372 : Fence available: 1
+12697483281641 : placing fence for:0 waiting for: 2
+12697483550311 : placing fence for:1 waiting for: 3
+12697483573508 : explicit flush: waiting for fence on: 2
+12697483631138 : Fence available: 2
+12697483668368 : Fence available: 3
+12697483747347 : placing fence for:2 waiting for: 0
+12697483846374 : placing fence for:3 waiting for: 1
+12697483886438 : explicit flush: waiting for fence on: 0
+12697483963326 : Fence available: 0
+12697484003972 : Fence available: 1
+12697484158481 : placing fence for:0 waiting for: 2
+12697484330329 : placing fence for:1 waiting for: 3
+12697484356379 : explicit flush: waiting for fence on: 2
+12697484414945 : Fence available: 2
+12697484461529 : Fence available: 3
+12697484748192 : placing fence for:2 waiting for: 0
+12697485025319 : placing fence for:3 waiting for: 1
+12697485047871 : explicit flush: waiting for fence on: 0
+12697485125306 : Fence available: 0
+12697485165055 : Fence available: 1
+12697485318605 : placing fence for:0 waiting for: 2
+12697485376454 : placing fence for:1 waiting for: 3
+12697485395741 : explicit flush: waiting for fence on: 2
+12697485448695 : Fence available: 2
+12697485484391 : Fence available: 3
+12697485777864 : Fence available: 0
+12697485814524 : Fence available: 1
+paint[2]: duration= 19.076587 ms.
+12697499221656 : placing fence for:2 waiting for: -1
+12697499928681 : placing fence for:3 waiting for: -1
+12697499980869 : placing fence for:0 waiting for: 2
+12697501252883 : placing fence for:1 waiting for: 3
+12697501295885 : explicit flush: waiting for fence on: 2
+12697501491495 : Fence available: 2
+12697501546928 : Fence available: 3
+12697502509611 : placing fence for:2 waiting for: 0
+12697502736133 : placing fence for:3 waiting for: 1
+12697502758282 : explicit flush: waiting for fence on: 0
+12697502817252 : Fence available: 0
+12697502857938 : Fence available: 1
+12697502914658 : placing fence for:0 waiting for: 2
+12697504122931 : placing fence for:1 waiting for: 3
+12697504168151 : explicit flush: waiting for fence on: 2
+12697504261694 : Fence available: 2
+12697504318221 : Fence available: 3
+12697504764001 : placing fence for:2 waiting for: 0
+12697504815679 : placing fence for:3 waiting for: 1
+12697504837243 : explicit flush: waiting for fence on: 0
+12697504893191 : Fence available: 0
+12697504946583 : Fence available: 1
+12697505047830 : placing fence for:0 waiting for: 2
+12697505114149 : placing fence for:1 waiting for: 3
+12697505139202 : explicit flush: waiting for fence on: 2
+12697505238985 : Fence available: 2
+12697505309695 : Fence available: 3
+12697505902957 : placing fence for:2 waiting for: 0
+12697505955442 : placing fence for:3 waiting for: 1
+12697505975412 : explicit flush: waiting for fence on: 0
+12697506028928 : Fence available: 0
+12697506524798 : Fence available: 1
+12697506743197 : placing fence for:0 waiting for: 2
+12697506809489 : placing fence for:1 waiting for: 3
+12697506875477 : explicit flush: waiting for fence on: 2
+ait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+queueMaskQuad: VTX adding sync on region 2
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX waiting for fence on region 1, vtxPer: 680
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 0
+VTX Sync needed for region 2
+MASK Sync needed for region 0
+MASK Sync needed for region 1
+FlushMaskCache(sync) do sync: done
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+queueMaskQuad: VTX adding sync on region 1
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on reg12697506953251 : Fence available: 2
+12697506987326 : Fence available: 3
+12697507156894 : placing fence for:2 waiting for: 0
+12697507344100 : placing fence for:3 waiting for: 1
+12697507388290 : explicit flush: waiting for fence on: 0
+12697507455309 : Fence available: 0
+12697507487845 : Fence available: 1
+12697507789093 : placing fence for:0 waiting for: 2
+12697508083192 : placing fence for:1 waiting for: 3
+12697508105616 : explicit flush: waiting for fence on: 2
+12697508179485 : Fence available: 2
+12697508210570 : Fence available: 3
+12697508409768 : placing fence for:2 waiting for: 0
+12697508598028 : placing fence for:3 waiting for: 1
+12697508619429 : explicit flush: waiting for fence on: 0
+12697508700779 : Fence available: 0
+12697508750552 : Fence available: 1
+12697508931572 : placing fence for:0 waiting for: 2
+12697509152122 : placing fence for:1 waiting for: 3
+12697509179587 : explicit flush: waiting for fence on: 2
+12697509233535 : Fence available: 2
+12697509269785 : Fence available: 3
+12697509582036 : placing fence for:2 waiting for: 0
+12697509962075 : placing fence for:3 waiting for: 1
+12697509986368 : explicit flush: waiting for fence on: 0
+12697510033881 : Fence available: 0
+12697510066272 : Fence available: 1
+12697510284689 : placing fence for:0 waiting for: 2
+12697510551591 : placing fence for:1 waiting for: 3
+12697510567371 : explicit flush: waiting for fence on: 2
+12697510629713 : Fence available: 2
+12697510676127 : Fence available: 3
+12697510968442 : placing fence for:2 waiting for: 0
+12697511231012 : placing fence for:3 waiting for: 1
+12697511250317 : explicit flush: waiting for fence on: 0
+12697511310568 : Fence available: 0
+12697511347432 : Fence available: 1
+12697511435887 : placing fence for:0 waiting for: 2
+12697511602029 : placing fence for:1 waiting for: 3
+12697511622046 : explicit flush: waiting for fence on: 2
+12697511672880 : Fence available: 2
+12697511708110 : Fence available: 3
+12697511858412 : placing fence for:2 waiting for: 0
+12697511896845 : placing fence for:3 waiting for: 1
+12697511909052 : explicit flush: waiting for fence on: 0
+12697512228274 : Fence available: 0
+12697512275853 : Fence available: 1
+12697512633901 : placing fence for:0 waiting for: 2
+12697512684094 : placing fence for:1 waiting for: 3
+12697512715815 : explicit flush: waiting for fence on: 2
+12697512813356 : Fence available: 2
+12697512859700 : Fence available: 3
+12697513616971 : placing fence for:2 waiting for: 0
+12697513671593 : placing fence for:3 waiting for: 1
+12697513689341 : explicit flush: waiting for fence on: 0
+12697513755968 : Fence available: 0
+12697513820987 : Fence available: 1
+12697514198068 : placing fence for:0 waiting for: 2
+12697514363121 : placing fence for:1 waiting for: 3
+12697514379304 : explicit flush: waiting for fence on: 2
+12697514433055 : Fence available: 2
+12697514462813 : Fence available: 3
+12697514737003 : placing fence for:2 waiting for: 0
+12697514995291 : placing fence for:3 waiting for: 1
+12697515008840 : explicit flush: waiting for fence on: 0
+12697515059646 : Fence available: 0
+12697515087891 : Fence available: 1
+12697515246949 : placing fence for:0 waiting for: 2
+12697515298306 : placing fence for:1 waiting for: 3
+12697515314434 : explicit flush: waiting for fence on: 2
+12697515367516 : Fence available: 2
+12697515398826 : Fence available: 3
+12697515657209 : Fence available: 0
+12697515686179 : Fence available: 1
+paint[3]: duration= 17.910958 ms.
+12697535554262 : placing fence for:2 waiting for: -1
+12697536003855 : placing fence for:3 waiting for: -1
+12697536364942 : placing fence for:0 waiting for: 2
+12697536774929 : placing fence for:1 waiting for: 3
+12697536789358 : explicit flush: waiting for fence on: 2
+12697536955974 : Fence available: 2
+12697537004788 : Fence available: 3
+12697537066050 : placing fence for:2 waiting for: 0
+12697537279156 : placing fence for:3 waiting for: 1
+12697537333088 : explicit flush: waiting for fence on: 0
+12697537438716 : Fence available: 0
+12697537516084 : Fence available: 1
+12697537978441 : placing fence for:0 waiting for: 2
+12697538155405 : placing fence for:1 waiting for: 3
+12697538188082 : explicit flush: waiting for fence on: 2
+12697538267526 : Fence available: 2
+12697538303846 : Fence available: 3
+12697538383892 : placing fence for:2 waiting for: 0
+12697538855018 : placing fence for:3 waiting for: 1
+12697538900182 : explicit flush: waiting for fence on: 0
+12697538985241 : Fence available: 0
+12697539037009 : Fence available: 1
+12697539223842 : placing fence for:0 waiting for: 2
+12697539590237 : placing fence for:1 waiting for: 3
+12697539618330 : explicit flush: waiting for fence on: 2
+12697539691906 : Fence available: 2
+12697539740143 : Fence available: 3
+12697540024009 : placing fence for:2 waiting for: 0
+12697540312231 : placing fence for:3 waiting for: 1
+12697540339140 : explicit flush: waiting for fence on: 0
+12697540386973 : Fence available: 0
+12697540415348 : Fence available: 1
+12697540557909 : placing fence for:0 waiting for: 2
+12697540591861 : placing fence for:1 waiting for: 3
+12697540601691 : explicit flush: waiting for fence on: 2
+12697540650321 : Fence available: 2
+ion 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+queueMaskQuad: VTX adding sync on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX waiting for fence on region 1, vtxPer: 680
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 0
+VTX Sync needed for region 2
+MASK Sync needed for region 0
+MASK Sync needed for region 1
+FlushMaskCache(sync) do sync: done
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+queueMaskQuad: VTX adding sync on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+Queu12697540689703 : Fence available: 3
+12697541090668 : placing fence for:2 waiting for: 0
+12697541503905 : placing fence for:3 waiting for: 1
+12697541517131 : explicit flush: waiting for fence on: 0
+12697541566642 : Fence available: 0
+12697541601363 : Fence available: 1
+12697541664873 : placing fence for:0 waiting for: 2
+12697542057569 : placing fence for:1 waiting for: 3
+12697542074713 : explicit flush: waiting for fence on: 2
+12697542157315 : Fence available: 2
+12697542213088 : Fence available: 3
+12697542269647 : placing fence for:2 waiting for: 0
+12697542337670 : placing fence for:3 waiting for: 1
+12697542355264 : explicit flush: waiting for fence on: 0
+12697542415055 : Fence available: 0
+12697542448110 : Fence available: 1
+12697542858218 : placing fence for:0 waiting for: 2
+12697543007828 : placing fence for:1 waiting for: 3
+12697543020316 : explicit flush: waiting for fence on: 2
+12697543080110 : Fence available: 2
+12697543150583 : Fence available: 3
+12697543347033 : placing fence for:2 waiting for: 0
+12697543633914 : placing fence for:3 waiting for: 1
+12697543651122 : explicit flush: waiting for fence on: 0
+12697543713746 : Fence available: 0
+12697543742488 : Fence available: 1
+12697544022321 : placing fence for:0 waiting for: 2
+12697544148728 : placing fence for:1 waiting for: 3
+12697544158294 : explicit flush: waiting for fence on: 2
+12697544206191 : Fence available: 2
+12697544240925 : Fence available: 3
+12697544318513 : placing fence for:2 waiting for: 0
+12697544475537 : placing fence for:3 waiting for: 1
+12697544486397 : explicit flush: waiting for fence on: 0
+12697544547741 : Fence available: 0
+12697544592385 : Fence available: 1
+12697544768950 : placing fence for:0 waiting for: 2
+12697544915556 : placing fence for:1 waiting for: 3
+12697544934361 : explicit flush: waiting for fence on: 2
+12697544982375 : Fence available: 2
+12697545009954 : Fence available: 3
+12697545295805 : placing fence for:2 waiting for: 0
+12697545455292 : placing fence for:3 waiting for: 1
+12697545465792 : explicit flush: waiting for fence on: 0
+12697545551279 : Fence available: 0
+12697545591154 : Fence available: 1
+12697545737678 : placing fence for:0 waiting for: 2
+12697545793862 : placing fence for:1 waiting for: 3
+12697545806867 : explicit flush: waiting for fence on: 2
+12697546195602 : Fence available: 2
+12697546231717 : Fence available: 3
+12697546319792 : placing fence for:2 waiting for: 0
+12697546466446 : placing fence for:3 waiting for: 1
+12697546477426 : explicit flush: waiting for fence on: 0
+12697546523293 : Fence available: 0
+12697546549647 : Fence available: 1
+12697546758229 : placing fence for:0 waiting for: 2
+12697547019455 : placing fence for:1 waiting for: 3
+12697547030884 : explicit flush: waiting for fence on: 2
+12697547106578 : Fence available: 2
+12697547140975 : Fence available: 3
+12697547419916 : placing fence for:2 waiting for: 0
+12697547546617 : placing fence for:3 waiting for: 1
+12697547556581 : explicit flush: waiting for fence on: 0
+12697547599909 : Fence available: 0
+12697547634625 : Fence available: 1
+12697547677196 : placing fence for:0 waiting for: 2
+12697547815963 : Fence available: 2
+12697547845769 : Fence available: 0
+12697547861462 : Fence available: 3
+paint[4]: duration= 14.315272 ms.
+Counts: blue = 3125964 white = 859636 others = 14400
+Writing file: /home/marlin/ssbo/EllipseFillParallelTest-4.png
+12698018083120 : placing fence for:1 waiting for: -1
+12698019335727 : placing fence for:2 waiting for: -1
+12698019443901 : placing fence for:3 waiting for: 1
+12698019481319 : placing fence for:0 waiting for: 2
+12698019507519 : explicit flush: waiting for fence on: 1
+12698019720477 : Fence available: 1
+12698019765960 : Fence available: 2
+12698020365940 : placing fence for:1 waiting for: 3
+12698020554906 : placing fence for:2 waiting for: 0
+12698020571906 : explicit flush: waiting for fence on: 3
+12698020644579 : Fence available: 3
+12698020674664 : Fence available: 0
+12698021584090 : placing fence for:3 waiting for: 1
+12698021799773 : placing fence for:0 waiting for: 2
+12698021809932 : explicit flush: waiting for fence on: 1
+12698021890685 : Fence available: 1
+12698021931175 : Fence available: 2
+12698022291853 : placing fence for:1 waiting for: 3
+12698022596718 : placing fence for:2 waiting for: 0
+12698022607044 : explicit flush: waiting for fence on: 3
+12698022674906 : Fence available: 3
+12698022716422 : Fence available: 0
+12698022800402 : placing fence for:3 waiting for: 1
+12698023105823 : placing fence for:0 waiting for: 2
+12698023120972 : explicit flush: waiting for fence on: 1
+12698023181039 : Fence available: 1
+12698023209614 : Fence available: 2
+12698023317944 : placing fence for:1 waiting for: 3
+12698023679495 : placing fence for:2 waiting for: 0
+12698023699437 : explicit flush: waiting for fence on: 3
+12698023755651 : Fence available: 3
+12698023787006 : Fence available: 0
+12698023951914 : placing fence for:3 waiting for: 1
+12698024223272 : placing fence for:0 waiting for: 2
+12698024232802 : explicit flush: waiting for fence on: 1
+12698024281944 : Fence available: 1
+12698024307680 : Fence available: 2
+12698024585038 : placing fence for:1 waiting for: 3
+12698024714306 : placing fence for:2 waiting for: 0
+12698024736883 : explicit flush: waiting for fence on: 3
+eMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+queueMaskQuad: VTX adding sync on region 2
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+queueMaskQuad: VTX adding sync on region 0
+queueMaskQuad: VTX waiting for fence on region 1, vtxPer: 680
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 0
+VTX Sync needed for region 2
+MASK Sync needed for region 0
+MASK Sync needed for region 3
+FlushMaskCache(sync) do sync: done
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+queueMaskQuad: VTX adding sync on region 1
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBuffe12698024800119 : Fence available: 3
+12698024833007 : Fence available: 0
+12698024883499 : placing fence for:3 waiting for: 1
+12698025590214 : placing fence for:0 waiting for: 2
+12698025620262 : explicit flush: waiting for fence on: 1
+12698025684622 : Fence available: 1
+12698025713988 : Fence available: 2
+12698025997515 : placing fence for:1 waiting for: 3
+12698026291917 : placing fence for:2 waiting for: 0
+12698026302898 : explicit flush: waiting for fence on: 3
+12698026355001 : Fence available: 3
+12698026379443 : Fence available: 0
+12698026423968 : placing fence for:3 waiting for: 1
+12698026757732 : placing fence for:0 waiting for: 2
+12698026768358 : explicit flush: waiting for fence on: 1
+12698026816885 : Fence available: 1
+12698026840624 : Fence available: 2
+12698026998510 : placing fence for:1 waiting for: 3
+12698027250652 : placing fence for:2 waiting for: 0
+12698027258812 : explicit flush: waiting for fence on: 3
+12698027304253 : Fence available: 3
+12698027335001 : Fence available: 0
+12698027619108 : placing fence for:3 waiting for: 1
+12698027746537 : placing fence for:0 waiting for: 2
+12698027754676 : explicit flush: waiting for fence on: 1
+12698027794282 : Fence available: 1
+12698027838048 : Fence available: 2
+12698027888703 : placing fence for:1 waiting for: 3
+12698028066577 : placing fence for:2 waiting for: 0
+12698028075672 : explicit flush: waiting for fence on: 3
+12698028116156 : Fence available: 3
+12698028139966 : Fence available: 0
+12698028449425 : placing fence for:3 waiting for: 1
+12698029276482 : placing fence for:0 waiting for: 2
+12698029296632 : explicit flush: waiting for fence on: 1
+12698029360555 : Fence available: 1
+12698029389908 : Fence available: 2
+12698029568230 : placing fence for:1 waiting for: 3
+12698029720247 : placing fence for:2 waiting for: 0
+12698029731254 : explicit flush: waiting for fence on: 3
+12698029779414 : Fence available: 3
+12698029823882 : Fence available: 0
+12698030219885 : placing fence for:3 waiting for: 1
+12698030725211 : placing fence for:0 waiting for: 2
+12698030738952 : explicit flush: waiting for fence on: 1
+12698030847648 : Fence available: 1
+12698030899243 : Fence available: 2
+12698030978681 : placing fence for:1 waiting for: 3
+12698031068607 : placing fence for:2 waiting for: 0
+12698031086512 : explicit flush: waiting for fence on: 3
+12698031146736 : Fence available: 3
+12698031174401 : Fence available: 0
+12698031233909 : placing fence for:3 waiting for: 1
+12698031385888 : placing fence for:0 waiting for: 2
+12698031393855 : explicit flush: waiting for fence on: 1
+12698031478295 : Fence available: 1
+12698031513711 : Fence available: 2
+12698031786440 : placing fence for:1 waiting for: 3
+12698032043980 : placing fence for:2 waiting for: 0
+12698032052064 : explicit flush: waiting for fence on: 3
+12698032129529 : Fence available: 3
+12698032158092 : Fence available: 0
+12698032316063 : placing fence for:3 waiting for: 1
+12698032346143 : placing fence for:0 waiting for: 2
+12698032352000 : explicit flush: waiting for fence on: 1
+12698032406427 : Fence available: 1
+12698032432143 : Fence available: 2
+12698032884789 : Fence available: 0
+12698032921114 : Fence available: 3
+paint[5]: duration= 15.664283 ms.
+12698053273506 : placing fence for:1 waiting for: -1
+12698053790911 : placing fence for:2 waiting for: -1
+12698054219687 : placing fence for:3 waiting for: 1
+12698054317574 : placing fence for:0 waiting for: 2
+12698054325362 : explicit flush: waiting for fence on: 1
+12698054817948 : Fence available: 1
+12698054867912 : Fence available: 2
+12698055014435 : placing fence for:1 waiting for: 3
+12698056501898 : placing fence for:2 waiting for: 0
+12698056513279 : explicit flush: waiting for fence on: 3
+12698056615899 : Fence available: 3
+12698056655106 : Fence available: 0
+12698057334019 : placing fence for:3 waiting for: 1
+12698057496872 : placing fence for:0 waiting for: 2
+12698057516184 : explicit flush: waiting for fence on: 1
+12698057582050 : Fence available: 1
+12698057613631 : Fence available: 2
+12698057832399 : placing fence for:1 waiting for: 3
+12698057855956 : placing fence for:2 waiting for: 0
+12698057862521 : explicit flush: waiting for fence on: 3
+12698057906613 : Fence available: 3
+12698057932511 : Fence available: 0
+12698058471697 : placing fence for:3 waiting for: 1
+12698058500392 : placing fence for:0 waiting for: 2
+12698058515715 : explicit flush: waiting for fence on: 1
+12698058562244 : Fence available: 1
+12698058585056 : Fence available: 2
+12698058738889 : placing fence for:1 waiting for: 3
+12698058985771 : placing fence for:2 waiting for: 0
+12698058992586 : explicit flush: waiting for fence on: 3
+12698059052883 : Fence available: 3
+12698059077970 : Fence available: 0
+12698059488607 : placing fence for:3 waiting for: 1
+12698059867681 : placing fence for:0 waiting for: 2
+12698059880019 : explicit flush: waiting for fence on: 1
+12698060142179 : Fence available: 1
+12698060212494 : Fence available: 2
+12698060608615 : placing fence for:1 waiting for: 3
+12698060646869 : placing fence for:2 waiting for: 0
+12698060657473 : explicit flush: waiting for fence on: 3
+12698061678786 : Fence available: 3
+rFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+queueMaskQuad: VTX adding sync on region 2
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 1
+VTX Sync needed for region 2
+MASK Sync needed for region 0
+MASK Sync needed for region 3
+FlushMaskCache(sync) do sync: done
+queueMaskQuad: VTX adding sync on region 0
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+queueMaskQuad: VTX adding sync on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+12698061769001 : Fence available: 0
+12698062156357 : placing fence for:3 waiting for: 1
+12698062311948 : placing fence for:0 waiting for: 2
+12698062320778 : explicit flush: waiting for fence on: 1
+12698062385757 : Fence available: 1
+12698062408698 : Fence available: 2
+12698062568415 : placing fence for:1 waiting for: 3
+12698062677631 : placing fence for:2 waiting for: 0
+12698062685878 : explicit flush: waiting for fence on: 3
+12698062729855 : Fence available: 3
+12698062773448 : Fence available: 0
+12698062835300 : placing fence for:3 waiting for: 1
+12698062879463 : placing fence for:0 waiting for: 2
+12698062887566 : explicit flush: waiting for fence on: 1
+12698062934947 : Fence available: 1
+12698062968637 : Fence available: 2
+12698063035008 : placing fence for:1 waiting for: 3
+12698063180785 : placing fence for:2 waiting for: 0
+12698063189168 : explicit flush: waiting for fence on: 3
+12698063239967 : Fence available: 3
+12698063273726 : Fence available: 0
+12698063347388 : placing fence for:3 waiting for: 1
+12698063562683 : placing fence for:0 waiting for: 2
+12698063574081 : explicit flush: waiting for fence on: 1
+12698063848510 : Fence available: 1
+12698063898650 : Fence available: 2
+12698064200359 : placing fence for:1 waiting for: 3
+12698064243481 : placing fence for:2 waiting for: 0
+12698064255278 : explicit flush: waiting for fence on: 3
+12698064310040 : Fence available: 3
+12698064348781 : Fence available: 0
+12698064397458 : placing fence for:3 waiting for: 1
+12698064535718 : placing fence for:0 waiting for: 2
+12698064543180 : explicit flush: waiting for fence on: 1
+12698064583128 : Fence available: 1
+12698064605466 : Fence available: 2
+12698064892137 : placing fence for:1 waiting for: 3
+12698065152498 : placing fence for:2 waiting for: 0
+12698065162000 : explicit flush: waiting for fence on: 3
+12698065203737 : Fence available: 3
+12698065225182 : Fence available: 0
+12698065406213 : placing fence for:3 waiting for: 1
+12698065664055 : placing fence for:0 waiting for: 2
+12698065672942 : explicit flush: waiting for fence on: 1
+12698065718669 : Fence available: 1
+12698065758164 : Fence available: 2
+12698066046821 : placing fence for:1 waiting for: 3
+12698066176389 : placing fence for:2 waiting for: 0
+12698066189489 : explicit flush: waiting for fence on: 3
+12698066242056 : Fence available: 3
+12698066276367 : Fence available: 0
+12698066467653 : placing fence for:3 waiting for: 1
+12698066626027 : placing fence for:0 waiting for: 2
+12698066638253 : explicit flush: waiting for fence on: 1
+12698066679010 : Fence available: 1
+12698066700116 : Fence available: 2
+12698066851931 : placing fence for:1 waiting for: 3
+12698066885758 : placing fence for:2 waiting for: 0
+12698066893631 : explicit flush: waiting for fence on: 3
+12698066939320 : Fence available: 3
+12698066978146 : Fence available: 0
+12698067271179 : placing fence for:3 waiting for: 1
+12698067397807 : placing fence for:0 waiting for: 2
+12698067405714 : explicit flush: waiting for fence on: 1
+12698067454759 : Fence available: 1
+12698067936831 : Fence available: 2
+12698068039897 : placing fence for:1 waiting for: 3
+12698068268271 : Fence available: 3
+12698068294647 : Fence available: 0
+12698068304819 : Fence available: 1
+paint[6]: duration= 16.611227 ms.
+Counts: blue = 3132990 white = 852541 others = 14469
+Writing file: /home/marlin/ssbo/EllipseFillParallelTest-6.png
+12698515317907 : placing fence for:2 waiting for: -1
+12698515512847 : placing fence for:3 waiting for: -1
+12698515560384 : placing fence for:0 waiting for: 2
+12698515752876 : placing fence for:1 waiting for: 3
+12698515765867 : explicit flush: waiting for fence on: 2
+12698516078878 : Fence available: 2
+12698516129975 : Fence available: 3
+12698516182617 : placing fence for:2 waiting for: 0
+12698516281771 : placing fence for:3 waiting for: 1
+12698516301173 : explicit flush: waiting for fence on: 0
+12698516391564 : Fence available: 0
+12698516423882 : Fence available: 1
+12698516648333 : placing fence for:0 waiting for: 2
+12698516807072 : placing fence for:1 waiting for: 3
+12698516827333 : explicit flush: waiting for fence on: 2
+12698516881244 : Fence available: 2
+12698516920535 : Fence available: 3
+12698517129269 : placing fence for:2 waiting for: 0
+12698517257157 : placing fence for:3 waiting for: 1
+12698517271641 : explicit flush: waiting for fence on: 0
+12698517323150 : Fence available: 0
+12698517369818 : Fence available: 1
+12698517514651 : placing fence for:0 waiting for: 2
+12698517612422 : placing fence for:1 waiting for: 3
+12698517621344 : explicit flush: waiting for fence on: 2
+12698517671958 : Fence available: 2
+12698517704311 : Fence available: 3
+12698517915881 : placing fence for:2 waiting for: 0
+12698518004635 : placing fence for:3 waiting for: 1
+12698518012803 : explicit flush: waiting for fence on: 0
+12698518065968 : Fence available: 0
+12698518097741 : Fence available: 1
+12698518139807 : placing fence for:0 waiting for: 2
+12698518319524 : placing fence for:1 waiting for: 3
+12698518328727 : explicit flush: waiting for fence on: 2
+12698518362481 : Fence available: 2
+12698518383656 : Fence available: 3
+12698518494256 : placing fence for:2 waiting for: 0
+12698518635308 : placing fence for:3 waiting for: 1
+12698518653456 : explicit flush: waiting for fence on: 0
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 1
+VTX Sync needed for region 2
+MASK Sync needed for region 0
+MASK Sync needed for region 1
+FlushMaskCache(sync) do sync: done
+queueMaskQuad: VTX adding sync on region 0
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+queueMaskQuad: VTX adding sync on region 1
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskB12698518958541 : Fence available: 0
+12698518991689 : Fence available: 1
+12698519122463 : placing fence for:0 waiting for: 2
+12698519158874 : placing fence for:1 waiting for: 3
+12698519166704 : explicit flush: waiting for fence on: 2
+12698519201485 : Fence available: 2
+12698519223353 : Fence available: 3
+12698519358678 : placing fence for:2 waiting for: 0
+12698519440215 : placing fence for:3 waiting for: 1
+12698519448875 : explicit flush: waiting for fence on: 0
+12698519500599 : Fence available: 0
+12698519528396 : Fence available: 1
+12698519633917 : placing fence for:0 waiting for: 2
+12698519731342 : placing fence for:1 waiting for: 3
+12698519740861 : explicit flush: waiting for fence on: 2
+12698519819501 : Fence available: 2
+12698519846046 : Fence available: 3
+12698519924497 : placing fence for:2 waiting for: 0
+12698520053109 : placing fence for:3 waiting for: 1
+12698520138107 : explicit flush: waiting for fence on: 0
+12698520174099 : Fence available: 0
+12698520196542 : Fence available: 1
+12698520300763 : placing fence for:0 waiting for: 2
+12698520339092 : placing fence for:1 waiting for: 3
+12698520349006 : explicit flush: waiting for fence on: 2
+12698520381886 : Fence available: 2
+12698520408632 : Fence available: 3
+12698520517167 : placing fence for:2 waiting for: 0
+12698520645512 : placing fence for:3 waiting for: 1
+12698520653654 : explicit flush: waiting for fence on: 0
+12698520689453 : Fence available: 0
+12698520709752 : Fence available: 1
+12698520872026 : placing fence for:0 waiting for: 2
+12698520980989 : placing fence for:1 waiting for: 3
+12698520996006 : explicit flush: waiting for fence on: 2
+12698521038546 : Fence available: 2
+12698521062030 : Fence available: 3
+12698521102875 : placing fence for:2 waiting for: 0
+12698521202012 : placing fence for:3 waiting for: 1
+12698521218283 : explicit flush: waiting for fence on: 0
+12698521256108 : Fence available: 0
+12698521279128 : Fence available: 1
+12698521365555 : placing fence for:0 waiting for: 2
+12698521409665 : placing fence for:1 waiting for: 3
+12698521421880 : explicit flush: waiting for fence on: 2
+12698521460771 : Fence available: 2
+12698521482630 : Fence available: 3
+12698521589923 : placing fence for:2 waiting for: 0
+12698521698803 : placing fence for:3 waiting for: 1
+12698521707436 : explicit flush: waiting for fence on: 0
+12698521746236 : Fence available: 0
+12698521770633 : Fence available: 1
+12698521914667 : placing fence for:0 waiting for: 2
+12698521956513 : placing fence for:1 waiting for: 3
+12698521967538 : explicit flush: waiting for fence on: 2
+12698522002857 : Fence available: 2
+12698522022745 : Fence available: 3
+12698522123855 : placing fence for:2 waiting for: 0
+12698522203115 : placing fence for:3 waiting for: 1
+12698522210042 : explicit flush: waiting for fence on: 0
+12698522246236 : Fence available: 0
+12698522267080 : Fence available: 1
+12698522347560 : placing fence for:0 waiting for: 2
+12698522472611 : Fence available: 2
+12698522499084 : Fence available: 0
+12698522510830 : Fence available: 3
+paint[7]: duration= 7.921739 ms.
+Counts: blue = 3121962 white = 863579 others = 14459
+Writing file: /home/marlin/ssbo/EllipseFillParallelTest-7.png
+12698976614332 : placing fence for:1 waiting for: -1
+12698976802833 : placing fence for:2 waiting for: -1
+12698976928247 : placing fence for:3 waiting for: 1
+12698976946004 : placing fence for:0 waiting for: 2
+12698976952111 : explicit flush: waiting for fence on: 1
+12698977336750 : Fence available: 1
+12698977397890 : Fence available: 2
+12698977578036 : placing fence for:1 waiting for: 3
+12698977754628 : placing fence for:2 waiting for: 0
+12698977763277 : explicit flush: waiting for fence on: 3
+12698977822607 : Fence available: 3
+12698977847090 : Fence available: 0
+12698977988434 : placing fence for:3 waiting for: 1
+12698978027111 : placing fence for:0 waiting for: 2
+12698978036232 : explicit flush: waiting for fence on: 1
+12698978091366 : Fence available: 1
+12698978122449 : Fence available: 2
+12698978189747 : placing fence for:1 waiting for: 3
+12698978226121 : placing fence for:2 waiting for: 0
+12698978238052 : explicit flush: waiting for fence on: 3
+12698978287180 : Fence available: 3
+12698978310748 : Fence available: 0
+12698978422710 : placing fence for:3 waiting for: 1
+12698978550983 : placing fence for:0 waiting for: 2
+12698978565032 : explicit flush: waiting for fence on: 1
+12698978630252 : Fence available: 1
+12698978669466 : Fence available: 2
+12698978874598 : placing fence for:1 waiting for: 3
+12698978996516 : placing fence for:2 waiting for: 0
+12698979003582 : explicit flush: waiting for fence on: 3
+12698979052729 : Fence available: 3
+12698979075053 : Fence available: 0
+12698979201656 : placing fence for:3 waiting for: 1
+12698979327308 : placing fence for:0 waiting for: 2
+12698979335824 : explicit flush: waiting for fence on: 1
+12698979381948 : Fence available: 1
+12698979402115 : Fence available: 2
+12698979504442 : placing fence for:1 waiting for: 3
+12698979545162 : placing fence for:2 waiting for: 0
+12698979554074 : explicit flush: waiting for fence on: 3
+12698979591216 : Fence available: 3
+ufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 1
+VTX Sync needed for region 2
+MASK Sync needed for region 0
+MASK Sync needed for region 3
+FlushMaskCache(sync) do sync: done
+QueueMaskBufferFence: create fence on region 1
+queueMaskQuad: VTX adding sync on region 0
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+queueMaskQuad: VTX adding sync on region 1
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence12698979628491 : Fence available: 0
+12698979676488 : placing fence for:3 waiting for: 1
+12698979761906 : placing fence for:0 waiting for: 2
+12698979771375 : explicit flush: waiting for fence on: 1
+12698979816678 : Fence available: 1
+12698979841669 : Fence available: 2
+12698979962461 : placing fence for:1 waiting for: 3
+12698980033336 : placing fence for:2 waiting for: 0
+12698980039614 : explicit flush: waiting for fence on: 3
+12698980079961 : Fence available: 3
+12698980105291 : Fence available: 0
+12698980251371 : placing fence for:3 waiting for: 1
+12698980339666 : placing fence for:0 waiting for: 2
+12698980350555 : explicit flush: waiting for fence on: 1
+12698980400847 : Fence available: 1
+12698980424904 : Fence available: 2
+12698980552061 : placing fence for:1 waiting for: 3
+12698980615761 : placing fence for:2 waiting for: 0
+12698980623685 : explicit flush: waiting for fence on: 3
+12698980664332 : Fence available: 3
+12698980687744 : Fence available: 0
+12698980794809 : placing fence for:3 waiting for: 1
+12698980884466 : placing fence for:0 waiting for: 2
+12698980926147 : explicit flush: waiting for fence on: 1
+12698980976811 : Fence available: 1
+12698980999508 : Fence available: 2
+12698981128541 : placing fence for:1 waiting for: 3
+12698981212132 : placing fence for:2 waiting for: 0
+12698981219192 : explicit flush: waiting for fence on: 3
+12698981271453 : Fence available: 3
+12698981301021 : Fence available: 0
+12698981364723 : placing fence for:3 waiting for: 1
+12698981397061 : placing fence for:0 waiting for: 2
+12698981404527 : explicit flush: waiting for fence on: 1
+12698981439300 : Fence available: 1
+12698981459115 : Fence available: 2
+12698981515551 : placing fence for:1 waiting for: 3
+12698981572420 : placing fence for:2 waiting for: 0
+12698981583501 : explicit flush: waiting for fence on: 3
+12698981637205 : Fence available: 3
+12698981659311 : Fence available: 0
+12698981771286 : placing fence for:3 waiting for: 1
+12698981911833 : placing fence for:0 waiting for: 2
+12698981923424 : explicit flush: waiting for fence on: 1
+12698981961905 : Fence available: 1
+12698981983410 : Fence available: 2
+12698982145290 : placing fence for:1 waiting for: 3
+12698982250426 : placing fence for:2 waiting for: 0
+12698982258934 : explicit flush: waiting for fence on: 3
+12698982296985 : Fence available: 3
+12698982320190 : Fence available: 0
+12698982415672 : placing fence for:3 waiting for: 1
+12698982501325 : placing fence for:0 waiting for: 2
+12698982509584 : explicit flush: waiting for fence on: 1
+12698982542660 : Fence available: 1
+12698982562565 : Fence available: 2
+12698982655586 : placing fence for:1 waiting for: 3
+12698982779755 : placing fence for:2 waiting for: 0
+12698982786991 : explicit flush: waiting for fence on: 3
+12698982825617 : Fence available: 3
+12698982850109 : Fence available: 0
+12698982939706 : placing fence for:3 waiting for: 1
+12698982974384 : placing fence for:0 waiting for: 2
+12698982982129 : explicit flush: waiting for fence on: 1
+12698983015537 : Fence available: 1
+12698983038748 : Fence available: 2
+12698983169867 : Fence available: 0
+12698983184406 : Fence available: 3
+paint[8]: duration= 7.064562 ms.
+12699001712792 : placing fence for:1 waiting for: -1
+12699001902966 : placing fence for:2 waiting for: -1
+12699001924445 : placing fence for:3 waiting for: 1
+12699002097656 : placing fence for:0 waiting for: 2
+12699002108826 : explicit flush: waiting for fence on: 1
+12699002294136 : Fence available: 1
+12699002344440 : Fence available: 2
+12699002404488 : placing fence for:1 waiting for: 3
+12699002509902 : placing fence for:2 waiting for: 0
+12699002530065 : explicit flush: waiting for fence on: 3
+12699002585638 : Fence available: 3
+12699002610528 : Fence available: 0
+12699002844172 : placing fence for:3 waiting for: 1
+12699002986388 : placing fence for:0 waiting for: 2
+12699002996448 : explicit flush: waiting for fence on: 1
+12699003041896 : Fence available: 1
+12699003064725 : Fence available: 2
+12699003266797 : placing fence for:1 waiting for: 3
+12699003481627 : placing fence for:2 waiting for: 0
+12699003502007 : explicit flush: waiting for fence on: 3
+12699003544932 : Fence available: 3
+12699003569699 : Fence available: 0
+12699003762823 : placing fence for:3 waiting for: 1
+12699003897100 : placing fence for:0 waiting for: 2
+12699003911720 : explicit flush: waiting for fence on: 1
+12699003944759 : Fence available: 1
+12699003970872 : Fence available: 2
+12699004108085 : placing fence for:1 waiting for: 3
+12699004284956 : placing fence for:2 waiting for: 0
+12699004295846 : explicit flush: waiting for fence on: 3
+12699004328931 : Fence available: 3
+12699004350730 : Fence available: 0
+12699004461219 : placing fence for:3 waiting for: 1
+12699004551353 : placing fence for:0 waiting for: 2
+12699004560292 : explicit flush: waiting for fence on: 1
+12699004613708 : Fence available: 1
+12699004636946 : Fence available: 2
+12699004804286 : placing fence for:1 waiting for: 3
+12699004879836 : placing fence for:2 waiting for: 0
+12699004887563 : explicit flush: waiting for fence on: 3
+12699004948646 : Fence available: 3
+: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 1
+VTX Sync needed for region 2
+MASK Sync needed for region 0
+MASK Sync needed for region 3
+FlushMaskCache(sync) do sync: done
+QueueMaskBufferFence: create fence on region 1
+queueMaskQuad: VTX adding sync on region 0
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+queueMaskQuad: VTX adding sync on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create f12699004989054 : Fence available: 0
+12699005075769 : placing fence for:3 waiting for: 1
+12699005145267 : placing fence for:0 waiting for: 2
+12699005153494 : explicit flush: waiting for fence on: 1
+12699005194636 : Fence available: 1
+12699005218639 : Fence available: 2
+12699005283351 : placing fence for:1 waiting for: 3
+12699005319344 : placing fence for:2 waiting for: 0
+12699005330502 : explicit flush: waiting for fence on: 3
+12699005367637 : Fence available: 3
+12699005391049 : Fence available: 0
+12699005433395 : placing fence for:3 waiting for: 1
+12699005474667 : placing fence for:0 waiting for: 2
+12699005485097 : explicit flush: waiting for fence on: 1
+12699005520074 : Fence available: 1
+12699005540111 : Fence available: 2
+12699005649282 : placing fence for:1 waiting for: 3
+12699005698193 : placing fence for:2 waiting for: 0
+12699005709742 : explicit flush: waiting for fence on: 3
+12699005748376 : Fence available: 3
+12699005769549 : Fence available: 0
+12699005873936 : placing fence for:3 waiting for: 1
+12699006000301 : placing fence for:0 waiting for: 2
+12699006008649 : explicit flush: waiting for fence on: 1
+12699006092657 : Fence available: 1
+12699006116529 : Fence available: 2
+12699006172591 : placing fence for:1 waiting for: 3
+12699006269539 : placing fence for:2 waiting for: 0
+12699006281896 : explicit flush: waiting for fence on: 3
+12699006328810 : Fence available: 3
+12699006351979 : Fence available: 0
+12699006465052 : placing fence for:3 waiting for: 1
+12699006598461 : placing fence for:0 waiting for: 2
+12699006609025 : explicit flush: waiting for fence on: 1
+12699006661335 : Fence available: 1
+12699006683864 : Fence available: 2
+12699006734732 : placing fence for:1 waiting for: 3
+12699006768450 : placing fence for:2 waiting for: 0
+12699006775971 : explicit flush: waiting for fence on: 3
+12699006809517 : Fence available: 3
+12699006829393 : Fence available: 0
+12699006936821 : placing fence for:3 waiting for: 1
+12699006983596 : placing fence for:0 waiting for: 2
+12699006994170 : explicit flush: waiting for fence on: 1
+12699007035430 : Fence available: 1
+12699007058571 : Fence available: 2
+12699007245997 : placing fence for:1 waiting for: 3
+12699007439831 : placing fence for:2 waiting for: 0
+12699007450310 : explicit flush: waiting for fence on: 3
+12699007487984 : Fence available: 3
+12699007510402 : Fence available: 0
+12699007626979 : placing fence for:3 waiting for: 1
+12699007742573 : placing fence for:0 waiting for: 2
+12699007751542 : explicit flush: waiting for fence on: 1
+12699007786751 : Fence available: 1
+12699007810433 : Fence available: 2
+12699007905872 : placing fence for:1 waiting for: 3
+12699007951745 : placing fence for:2 waiting for: 0
+12699007961968 : explicit flush: waiting for fence on: 3
+12699008036649 : Fence available: 3
+12699008060746 : Fence available: 0
+12699008145017 : placing fence for:3 waiting for: 1
+12699008322424 : Fence available: 1
+12699008348573 : Fence available: 2
+12699008360756 : Fence available: 3
+paint[9]: duration= 7.175649 ms.
+Counts: blue = 3114941 white = 870804 others = 14255
+Writing file: /home/marlin/ssbo/EllipseFillParallelTest-9.png
+12699465945002 : placing fence for:0 waiting for: -1
+12699466156135 : placing fence for:1 waiting for: -1
+12699466280951 : placing fence for:2 waiting for: 0
+12699466297636 : placing fence for:3 waiting for: 1
+12699466303152 : explicit flush: waiting for fence on: 0
+12699466505394 : Fence available: 0
+12699466557853 : Fence available: 1
+12699466725606 : placing fence for:0 waiting for: 2
+12699466898738 : placing fence for:1 waiting for: 3
+12699466906364 : explicit flush: waiting for fence on: 2
+12699466986353 : Fence available: 2
+12699467013367 : Fence available: 3
+12699467154404 : placing fence for:2 waiting for: 0
+12699467175257 : placing fence for:3 waiting for: 1
+12699467180679 : explicit flush: waiting for fence on: 0
+12699467234648 : Fence available: 0
+12699467266479 : Fence available: 1
+12699467400220 : placing fence for:0 waiting for: 2
+12699467561975 : placing fence for:1 waiting for: 3
+12699467572047 : explicit flush: waiting for fence on: 2
+12699467619452 : Fence available: 2
+12699467640354 : Fence available: 3
+12699467698612 : placing fence for:2 waiting for: 0
+12699467738275 : placing fence for:3 waiting for: 1
+12699467745804 : explicit flush: waiting for fence on: 0
+12699467781734 : Fence available: 0
+12699467803845 : Fence available: 1
+12699467887123 : placing fence for:0 waiting for: 2
+12699467978556 : placing fence for:1 waiting for: 3
+12699467990513 : explicit flush: waiting for fence on: 2
+12699468044226 : Fence available: 2
+12699468067833 : Fence available: 3
+12699468109271 : placing fence for:2 waiting for: 0
+12699468180671 : placing fence for:3 waiting for: 1
+12699468187242 : explicit flush: waiting for fence on: 0
+12699468222667 : Fence available: 0
+12699468240677 : Fence available: 1
+12699468335113 : placing fence for:0 waiting for: 2
+12699468454506 : placing fence for:1 waiting for: 3
+12699468461449 : explicit flush: waiting for fence on: 2
+12699468502235 : Fence available: 2
+12699468521475 : Fence available: 3
+12699468684329 : placing fence for:2 waiting for: 0
+12699468772057 : placing fence for:3 waiting for: 1
+12699468784535 : explicit flush: waiting for fence on: 0
+ence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 1
+VTX Sync needed for region 2
+MASK Sync needed for region 2
+MASK Sync needed for region 3
+FlushMaskCache(sync) do sync: done
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: create fence on region 1
+queueMaskQuad: VTX adding sync on region 0
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+queueMaskQuad: VTX adding sync on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on re12699468835372 : Fence available: 0
+12699468855184 : Fence available: 1
+12699468963094 : placing fence for:0 waiting for: 2
+12699469078797 : placing fence for:1 waiting for: 3
+12699469087979 : explicit flush: waiting for fence on: 2
+12699469135030 : Fence available: 2
+12699469160102 : Fence available: 3
+12699469253302 : placing fence for:2 waiting for: 0
+12699469346555 : placing fence for:3 waiting for: 1
+12699469357049 : explicit flush: waiting for fence on: 0
+12699469440472 : Fence available: 0
+12699469470458 : Fence available: 1
+12699469518740 : placing fence for:0 waiting for: 2
+12699469632077 : placing fence for:1 waiting for: 3
+12699469640524 : explicit flush: waiting for fence on: 2
+12699469687986 : Fence available: 2
+12699469712216 : Fence available: 3
+12699469868277 : placing fence for:2 waiting for: 0
+12699470064235 : placing fence for:3 waiting for: 1
+12699470074361 : explicit flush: waiting for fence on: 0
+12699470126162 : Fence available: 0
+12699470151917 : Fence available: 1
+12699470289756 : placing fence for:0 waiting for: 2
+12699470370846 : placing fence for:1 waiting for: 3
+12699470378638 : explicit flush: waiting for fence on: 2
+12699470418995 : Fence available: 2
+12699470440987 : Fence available: 3
+12699470574241 : placing fence for:2 waiting for: 0
+12699470698575 : placing fence for:3 waiting for: 1
+12699470705649 : explicit flush: waiting for fence on: 0
+12699470744285 : Fence available: 0
+12699470769085 : Fence available: 1
+12699470838447 : placing fence for:0 waiting for: 2
+12699470932961 : placing fence for:1 waiting for: 3
+12699470942105 : explicit flush: waiting for fence on: 2
+12699470981916 : Fence available: 2
+12699471003396 : Fence available: 3
+12699471060478 : placing fence for:2 waiting for: 0
+12699471144513 : placing fence for:3 waiting for: 1
+12699471152274 : explicit flush: waiting for fence on: 0
+12699471191324 : Fence available: 0
+12699471212650 : Fence available: 1
+12699471272399 : placing fence for:0 waiting for: 2
+12699471435927 : placing fence for:1 waiting for: 3
+12699471448530 : explicit flush: waiting for fence on: 2
+12699471498972 : Fence available: 2
+12699471530311 : Fence available: 3
+12699471621697 : placing fence for:2 waiting for: 0
+12699471698116 : placing fence for:3 waiting for: 1
+12699471704444 : explicit flush: waiting for fence on: 0
+12699471735621 : Fence available: 0
+12699471756365 : Fence available: 1
+12699471891120 : placing fence for:0 waiting for: 2
+12699472014567 : placing fence for:1 waiting for: 3
+12699472021437 : explicit flush: waiting for fence on: 2
+12699472073774 : Fence available: 2
+12699472095125 : Fence available: 3
+12699472177174 : placing fence for:2 waiting for: 0
+12699472202551 : placing fence for:3 waiting for: 1
+12699472218092 : explicit flush: waiting for fence on: 0
+12699472261860 : Fence available: 0
+12699472284065 : Fence available: 1
+12699472477382 : Fence available: 2
+12699472503355 : Fence available: 3
+paint[10]: duration= 6.856164 ms.
+Counts: blue = 3120633 white = 865079 others = 14288
+Writing file: /home/marlin/ssbo/EllipseFillParallelTest-10.png
+12699920281058 : placing fence for:0 waiting for: -1
+12699920483075 : placing fence for:1 waiting for: -1
+12699920645702 : placing fence for:2 waiting for: 0
+12699920742454 : placing fence for:3 waiting for: 1
+12699920762937 : explicit flush: waiting for fence on: 0
+12699920954652 : Fence available: 0
+12699921009421 : Fence available: 1
+12699921218486 : placing fence for:0 waiting for: 2
+12699921295796 : placing fence for:1 waiting for: 3
+12699921314295 : explicit flush: waiting for fence on: 2
+12699921374026 : Fence available: 2
+12699921404195 : Fence available: 3
+12699921672954 : placing fence for:2 waiting for: 0
+12699921766392 : placing fence for:3 waiting for: 1
+12699921783942 : explicit flush: waiting for fence on: 0
+12699921836354 : Fence available: 0
+12699921859427 : Fence available: 1
+12699921982896 : placing fence for:0 waiting for: 2
+12699922039870 : placing fence for:1 waiting for: 3
+12699922047828 : explicit flush: waiting for fence on: 2
+12699922084788 : Fence available: 2
+12699922105335 : Fence available: 3
+12699922148985 : placing fence for:2 waiting for: 0
+12699922287899 : placing fence for:3 waiting for: 1
+12699922295335 : explicit flush: waiting for fence on: 0
+12699922329211 : Fence available: 0
+12699922351554 : Fence available: 1
+12699922434306 : placing fence for:0 waiting for: 2
+12699922468842 : placing fence for:1 waiting for: 3
+12699922476215 : explicit flush: waiting for fence on: 2
+12699922540142 : Fence available: 2
+12699922575968 : Fence available: 3
+12699922693225 : placing fence for:2 waiting for: 0
+12699922855269 : placing fence for:3 waiting for: 1
+12699922864359 : explicit flush: waiting for fence on: 0
+12699922907678 : Fence available: 0
+12699922948865 : Fence available: 1
+12699923035440 : placing fence for:0 waiting for: 2
+12699923106414 : placing fence for:1 waiting for: 3
+12699923111796 : explicit flush: waiting for fence on: 2
+12699923161286 : Fence available: 2
+12699923183030 : Fence available: 3
+12699923287394 : placing fence for:2 waiting for: 0
+12699923410576 : placing fence for:3 waiting for: 1
+12699923415821 : explicit flush: waiting for fence on: 0
+gion 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 1
+VTX Sync needed for region 2
+MASK Sync needed for region 2
+MASK Sync needed for region 3
+FlushMaskCache(sync) do sync: done
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: create fence on region 1
+queueMaskQuad: VTX adding sync on region 0
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+queueMaskQuad: VTX adding sync on region 1
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+Que12699923505234 : Fence available: 0
+12699923537272 : Fence available: 1
+12699923695155 : placing fence for:0 waiting for: 2
+12699923762725 : placing fence for:1 waiting for: 3
+12699923771648 : explicit flush: waiting for fence on: 2
+12699923804755 : Fence available: 2
+12699923824809 : Fence available: 3
+12699923932540 : placing fence for:2 waiting for: 0
+12699923992127 : placing fence for:3 waiting for: 1
+12699923999483 : explicit flush: waiting for fence on: 0
+12699924034442 : Fence available: 0
+12699924057466 : Fence available: 1
+12699924195710 : placing fence for:0 waiting for: 2
+12699924330244 : placing fence for:1 waiting for: 3
+12699924338374 : explicit flush: waiting for fence on: 2
+12699924388018 : Fence available: 2
+12699924435164 : Fence available: 3
+12699924606248 : placing fence for:2 waiting for: 0
+12699924736034 : placing fence for:3 waiting for: 1
+12699924743924 : explicit flush: waiting for fence on: 0
+12699924806543 : Fence available: 0
+12699924833042 : Fence available: 1
+12699925007413 : placing fence for:0 waiting for: 2
+12699925120529 : placing fence for:1 waiting for: 3
+12699925138624 : explicit flush: waiting for fence on: 2
+12699925184160 : Fence available: 2
+12699925208553 : Fence available: 3
+12699925262940 : placing fence for:2 waiting for: 0
+12699925394785 : placing fence for:3 waiting for: 1
+12699925406129 : explicit flush: waiting for fence on: 0
+12699925439517 : Fence available: 0
+12699925459423 : Fence available: 1
+12699925539331 : placing fence for:0 waiting for: 2
+12699925576023 : placing fence for:1 waiting for: 3
+12699925585828 : explicit flush: waiting for fence on: 2
+12699925629957 : Fence available: 2
+12699925649660 : Fence available: 3
+12699925755949 : placing fence for:2 waiting for: 0
+12699925786863 : placing fence for:3 waiting for: 1
+12699925793865 : explicit flush: waiting for fence on: 0
+12699925840906 : Fence available: 0
+12699925873530 : Fence available: 1
+12699925976452 : placing fence for:0 waiting for: 2
+12699926012559 : placing fence for:1 waiting for: 3
+12699926018725 : explicit flush: waiting for fence on: 2
+12699926063415 : Fence available: 2
+12699926092781 : Fence available: 3
+12699926162380 : placing fence for:2 waiting for: 0
+12699926298203 : placing fence for:3 waiting for: 1
+12699926305290 : explicit flush: waiting for fence on: 0
+12699926336390 : Fence available: 0
+12699926356629 : Fence available: 1
+12699926490587 : placing fence for:0 waiting for: 2
+12699926583966 : placing fence for:1 waiting for: 3
+12699926591653 : explicit flush: waiting for fence on: 2
+12699926653622 : Fence available: 2
+12699926687672 : Fence available: 3
+12699926782962 : placing fence for:2 waiting for: 0
+12699926962699 : Fence available: 0
+12699927435254 : Fence available: 1
+12699927452834 : Fence available: 2
+paint[11]: duration= 7.66161 ms.
+Counts: blue = 3118919 white = 866651 others = 14430
+Writing file: /home/marlin/ssbo/EllipseFillParallelTest-11.png
+12700375048081 : placing fence for:3 waiting for: -1
+12700375225236 : placing fence for:0 waiting for: -1
+12700375346543 : placing fence for:1 waiting for: 3
+12700375362388 : placing fence for:2 waiting for: 0
+12700375367756 : explicit flush: waiting for fence on: 3
+12700375562587 : Fence available: 3
+12700375617428 : Fence available: 0
+12700375755626 : placing fence for:3 waiting for: 1
+12700375949472 : placing fence for:0 waiting for: 2
+12700375959661 : explicit flush: waiting for fence on: 1
+12700376012690 : Fence available: 1
+12700376041834 : Fence available: 2
+12700376117119 : placing fence for:1 waiting for: 3
+12700376225037 : placing fence for:2 waiting for: 0
+12700376242651 : explicit flush: waiting for fence on: 3
+12700376309794 : Fence available: 3
+12700376333774 : Fence available: 0
+12700376477576 : placing fence for:3 waiting for: 1
+12700376642456 : placing fence for:0 waiting for: 2
+12700376655082 : explicit flush: waiting for fence on: 1
+12700376725104 : Fence available: 1
+12700376754732 : Fence available: 2
+12700376923770 : placing fence for:1 waiting for: 3
+12700376950896 : placing fence for:2 waiting for: 0
+12700376957524 : explicit flush: waiting for fence on: 3
+12700376993046 : Fence available: 3
+12700377014384 : Fence available: 0
+12700377131849 : placing fence for:3 waiting for: 1
+12700377283251 : placing fence for:0 waiting for: 2
+12700377292824 : explicit flush: waiting for fence on: 1
+12700377370981 : Fence available: 1
+12700377400787 : Fence available: 2
+12700377537251 : placing fence for:1 waiting for: 3
+12700377557031 : placing fence for:2 waiting for: 0
+12700377563101 : explicit flush: waiting for fence on: 3
+12700377609833 : Fence available: 3
+12700377633321 : Fence available: 0
+12700377696644 : placing fence for:3 waiting for: 1
+12700377721902 : placing fence for:0 waiting for: 2
+12700377727356 : explicit flush: waiting for fence on: 1
+12700377765567 : Fence available: 1
+12700377782924 : Fence available: 2
+12700377828193 : placing fence for:1 waiting for: 3
+12700377854361 : placing fence for:2 waiting for: 0
+12700377859547 : explicit flush: waiting for fence on: 3
+12700377893248 : Fence available: 3
+ueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 1
+VTX Sync needed for region 2
+MASK Sync needed for region 1
+MASK Sync needed for region 2
+FlushMaskCache(sync) do sync: done
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+queueMaskQuad: VTX adding sync on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+queueMaskQuad: VTX adding sync on region 1
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBuff12700377930038 : Fence available: 0
+12700378034006 : placing fence for:3 waiting for: 1
+12700378113949 : placing fence for:0 waiting for: 2
+12700378120112 : explicit flush: waiting for fence on: 1
+12700378170201 : Fence available: 1
+12700378198191 : Fence available: 2
+12700378285910 : placing fence for:1 waiting for: 3
+12700378342968 : placing fence for:2 waiting for: 0
+12700378361749 : explicit flush: waiting for fence on: 3
+12700378419178 : Fence available: 3
+12700378442017 : Fence available: 0
+12700378545833 : placing fence for:3 waiting for: 1
+12700378670654 : placing fence for:0 waiting for: 2
+12700378677678 : explicit flush: waiting for fence on: 1
+12700378713987 : Fence available: 1
+12700378737568 : Fence available: 2
+12700378845748 : placing fence for:1 waiting for: 3
+12700379035788 : placing fence for:2 waiting for: 0
+12700379042996 : explicit flush: waiting for fence on: 3
+12700379094704 : Fence available: 3
+12700379117823 : Fence available: 0
+12700379236254 : placing fence for:3 waiting for: 1
+12700379315950 : placing fence for:0 waiting for: 2
+12700379328573 : explicit flush: waiting for fence on: 1
+12700379376919 : Fence available: 1
+12700379405896 : Fence available: 2
+12700379555667 : placing fence for:1 waiting for: 3
+12700379650817 : placing fence for:2 waiting for: 0
+12700379660295 : explicit flush: waiting for fence on: 3
+12700379712286 : Fence available: 3
+12700379735802 : Fence available: 0
+12700379779743 : placing fence for:3 waiting for: 1
+12700379918913 : placing fence for:0 waiting for: 2
+12700379930665 : explicit flush: waiting for fence on: 1
+12700379972834 : Fence available: 1
+12700379992637 : Fence available: 2
+12700380044721 : placing fence for:1 waiting for: 3
+12700380080984 : placing fence for:2 waiting for: 0
+12700380093042 : explicit flush: waiting for fence on: 3
+12700380128974 : Fence available: 3
+12700380154528 : Fence available: 0
+12700380195413 : placing fence for:3 waiting for: 1
+12700380275791 : placing fence for:0 waiting for: 2
+12700380285866 : explicit flush: waiting for fence on: 1
+12700380324216 : Fence available: 1
+12700380345543 : Fence available: 2
+12700380399538 : placing fence for:1 waiting for: 3
+12700380451896 : placing fence for:2 waiting for: 0
+12700380460944 : explicit flush: waiting for fence on: 3
+12700380494088 : Fence available: 3
+12700380514745 : Fence available: 0
+12700380650807 : placing fence for:3 waiting for: 1
+12700380772210 : placing fence for:0 waiting for: 2
+12700380779356 : explicit flush: waiting for fence on: 1
+12700380807378 : Fence available: 1
+12700380827647 : Fence available: 2
+12700380922490 : placing fence for:1 waiting for: 3
+12700380989871 : placing fence for:2 waiting for: 0
+12700380995756 : explicit flush: waiting for fence on: 3
+12700381069416 : Fence available: 3
+12700381099742 : Fence available: 0
+12700381257848 : Fence available: 1
+12700381274083 : Fence available: 2
+paint[12]: duration= 6.754605 ms.
+12700399247405 : placing fence for:3 waiting for: -1
+12700399457536 : placing fence for:0 waiting for: -1
+12700399616613 : placing fence for:1 waiting for: 3
+12700399659744 : placing fence for:2 waiting for: 0
+12700399664921 : explicit flush: waiting for fence on: 3
+12700399768311 : Fence available: 3
+12700399833163 : Fence available: 0
+12700400038826 : placing fence for:3 waiting for: 1
+12700400067910 : placing fence for:0 waiting for: 2
+12700400073667 : explicit flush: waiting for fence on: 1
+12700400115302 : Fence available: 1
+12700400135407 : Fence available: 2
+12700400271524 : placing fence for:1 waiting for: 3
+12700400354595 : placing fence for:2 waiting for: 0
+12700400362416 : explicit flush: waiting for fence on: 3
+12700400414910 : Fence available: 3
+12700400441176 : Fence available: 0
+12700400613221 : placing fence for:3 waiting for: 1
+12700400788869 : placing fence for:0 waiting for: 2
+12700400806172 : explicit flush: waiting for fence on: 1
+12700400858028 : Fence available: 1
+12700400881344 : Fence available: 2
+12700401081841 : placing fence for:1 waiting for: 3
+12700401246956 : placing fence for:2 waiting for: 0
+12700401257649 : explicit flush: waiting for fence on: 3
+12700401293691 : Fence available: 3
+12700401314149 : Fence available: 0
+12700401414855 : placing fence for:3 waiting for: 1
+12700401454729 : placing fence for:0 waiting for: 2
+12700401465467 : explicit flush: waiting for fence on: 1
+12700401500343 : Fence available: 1
+12700401519248 : Fence available: 2
+12700401823735 : placing fence for:1 waiting for: 3
+12700401878903 : placing fence for:2 waiting for: 0
+12700401886975 : explicit flush: waiting for fence on: 3
+12700401940344 : Fence available: 3
+12700401966850 : Fence available: 0
+12700402016591 : placing fence for:3 waiting for: 1
+12700402101836 : placing fence for:0 waiting for: 2
+12700402112228 : explicit flush: waiting for fence on: 1
+12700402152158 : Fence available: 1
+12700402178179 : Fence available: 2
+12700402220647 : placing fence for:1 waiting for: 3
+12700402316451 : placing fence for:2 waiting for: 0
+12700402328189 : explicit flush: waiting for fence on: 3
+12700402361988 : Fence available: 3
+erFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 1
+VTX Sync needed for region 2
+MASK Sync needed for region 1
+MASK Sync needed for region 2
+FlushMaskCache(sync) do sync: done
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+queueMaskQuad: VTX adding sync on region 0
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+queueMaskQuad: VTX adding sync on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: w12700402393059 : Fence available: 0
+12700402503558 : placing fence for:3 waiting for: 1
+12700402547345 : placing fence for:0 waiting for: 2
+12700402555401 : explicit flush: waiting for fence on: 1
+12700402602024 : Fence available: 1
+12700402628761 : Fence available: 2
+12700402721136 : placing fence for:1 waiting for: 3
+12700402843073 : placing fence for:2 waiting for: 0
+12700402850571 : explicit flush: waiting for fence on: 3
+12700402882193 : Fence available: 3
+12700402903360 : Fence available: 0
+12700403009691 : placing fence for:3 waiting for: 1
+12700403065750 : placing fence for:0 waiting for: 2
+12700403075826 : explicit flush: waiting for fence on: 1
+12700403108873 : Fence available: 1
+12700403127803 : Fence available: 2
+12700403170630 : placing fence for:1 waiting for: 3
+12700403246804 : placing fence for:2 waiting for: 0
+12700403253776 : explicit flush: waiting for fence on: 3
+12700403296291 : Fence available: 3
+12700403316292 : Fence available: 0
+12700403463724 : placing fence for:3 waiting for: 1
+12700403544332 : placing fence for:0 waiting for: 2
+12700403550454 : explicit flush: waiting for fence on: 1
+12700403586565 : Fence available: 1
+12700403608273 : Fence available: 2
+12700403696444 : placing fence for:1 waiting for: 3
+12700403734511 : placing fence for:2 waiting for: 0
+12700403743714 : explicit flush: waiting for fence on: 3
+12700403775137 : Fence available: 3
+12700403794544 : Fence available: 0
+12700403894136 : placing fence for:3 waiting for: 1
+12700404069836 : placing fence for:0 waiting for: 2
+12700404082339 : explicit flush: waiting for fence on: 1
+12700404141974 : Fence available: 1
+12700404166980 : Fence available: 2
+12700404236166 : placing fence for:1 waiting for: 3
+12700404335293 : placing fence for:2 waiting for: 0
+12700404342762 : explicit flush: waiting for fence on: 3
+12700404385266 : Fence available: 3
+12700404407111 : Fence available: 0
+12700404959328 : placing fence for:3 waiting for: 1
+12700405058964 : placing fence for:0 waiting for: 2
+12700405070616 : explicit flush: waiting for fence on: 1
+12700405111672 : Fence available: 1
+12700405136216 : Fence available: 2
+12700405270566 : placing fence for:1 waiting for: 3
+12700405299707 : placing fence for:2 waiting for: 0
+12700405306070 : explicit flush: waiting for fence on: 3
+12700405393956 : Fence available: 3
+12700405417037 : Fence available: 0
+12700405528535 : placing fence for:3 waiting for: 1
+12700405649992 : placing fence for:0 waiting for: 2
+12700405656866 : explicit flush: waiting for fence on: 1
+12700405698953 : Fence available: 1
+12700405719202 : Fence available: 2
+12700405808664 : placing fence for:1 waiting for: 3
+12700405872192 : placing fence for:2 waiting for: 0
+12700405878226 : explicit flush: waiting for fence on: 3
+12700405907577 : Fence available: 3
+12700405928842 : Fence available: 0
+12700409055613 : Fence available: 1
+12700409072833 : Fence available: 2
+paint[13]: duration= 10.241465999999999 ms.
+Counts: blue = 3123917 white = 861628 others = 14455
+Writing file: /home/marlin/ssbo/EllipseFillParallelTest-13.png
+12700856488350 : placing fence for:3 waiting for: -1
+12700856673477 : placing fence for:0 waiting for: -1
+12700856751493 : placing fence for:1 waiting for: 3
+12700856766691 : placing fence for:2 waiting for: 0
+12700856772806 : explicit flush: waiting for fence on: 3
+12700857122646 : Fence available: 3
+12700857186078 : Fence available: 0
+12700857383595 : placing fence for:3 waiting for: 1
+12700857549404 : placing fence for:0 waiting for: 2
+12700857556748 : explicit flush: waiting for fence on: 1
+12700857606261 : Fence available: 1
+12700857639740 : Fence available: 2
+12700857687270 : placing fence for:1 waiting for: 3
+12700857767014 : placing fence for:2 waiting for: 0
+12700857785176 : explicit flush: waiting for fence on: 3
+12700857837116 : Fence available: 3
+12700857860934 : Fence available: 0
+12700857964170 : placing fence for:3 waiting for: 1
+12700858033190 : placing fence for:0 waiting for: 2
+12700858053296 : explicit flush: waiting for fence on: 1
+12700858232947 : Fence available: 1
+12700858262955 : Fence available: 2
+12700858443536 : placing fence for:1 waiting for: 3
+12700858572370 : placing fence for:2 waiting for: 0
+12700858582728 : explicit flush: waiting for fence on: 3
+12700858626090 : Fence available: 3
+12700858648562 : Fence available: 0
+12700858736138 : placing fence for:3 waiting for: 1
+12700858862715 : placing fence for:0 waiting for: 2
+12700858874152 : explicit flush: waiting for fence on: 1
+12700858913089 : Fence available: 1
+12700858933318 : Fence available: 2
+12700858976399 : placing fence for:1 waiting for: 3
+12700859014329 : placing fence for:2 waiting for: 0
+12700859025574 : explicit flush: waiting for fence on: 3
+12700859081722 : Fence available: 3
+12700859103960 : Fence available: 0
+12700859199413 : placing fence for:3 waiting for: 1
+12700859331904 : placing fence for:0 waiting for: 2
+12700859341729 : explicit flush: waiting for fence on: 1
+12700859379671 : Fence available: 1
+12700859405743 : Fence available: 2
+12700859571440 : placing fence for:1 waiting for: 3
+12700859596984 : placing fence for:2 waiting for: 0
+12700859606297 : explicit flush: waiting for fence on: 3
+12700859659942 : Fence available: 3
+ait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 1
+VTX Sync needed for region 2
+MASK Sync needed for region 1
+MASK Sync needed for region 2
+FlushMaskCache(sync) do sync: done
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+queueMaskQuad: VTX adding sync on region 0
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+queueMaskQuad: VTX adding sync on region 1
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on reg12700859694269 : Fence available: 0
+12700859746099 : placing fence for:3 waiting for: 1
+12700859864689 : placing fence for:0 waiting for: 2
+12700859870879 : explicit flush: waiting for fence on: 1
+12700859905834 : Fence available: 1
+12700859924889 : Fence available: 2
+12700860057042 : placing fence for:1 waiting for: 3
+12700860137707 : placing fence for:2 waiting for: 0
+12700860144058 : explicit flush: waiting for fence on: 3
+12700870083048 : Fence available: 3
+12700870130100 : Fence available: 0
+12700870271279 : placing fence for:3 waiting for: 1
+12700870370589 : placing fence for:0 waiting for: 2
+12700870388714 : explicit flush: waiting for fence on: 1
+12700870446046 : Fence available: 1
+12700870467994 : Fence available: 2
+12700870576690 : placing fence for:1 waiting for: 3
+12700870613571 : placing fence for:2 waiting for: 0
+12700870619581 : explicit flush: waiting for fence on: 3
+12700870706458 : Fence available: 3
+12700870739895 : Fence available: 0
+12700870806682 : placing fence for:3 waiting for: 1
+12700870879318 : placing fence for:0 waiting for: 2
+12700870887810 : explicit flush: waiting for fence on: 1
+12700870934698 : Fence available: 1
+12700870954802 : Fence available: 2
+12700871064453 : placing fence for:1 waiting for: 3
+12700871112391 : placing fence for:2 waiting for: 0
+12700871121858 : explicit flush: waiting for fence on: 3
+12700871165360 : Fence available: 3
+12700871192414 : Fence available: 0
+12700871282460 : placing fence for:3 waiting for: 1
+12700871408299 : placing fence for:0 waiting for: 2
+12700871414811 : explicit flush: waiting for fence on: 1
+12700871449329 : Fence available: 1
+12700871469091 : Fence available: 2
+12700871566578 : placing fence for:1 waiting for: 3
+12700871644520 : placing fence for:2 waiting for: 0
+12700871653159 : explicit flush: waiting for fence on: 3
+12700871687629 : Fence available: 3
+12700871708164 : Fence available: 0
+12700871772141 : placing fence for:3 waiting for: 1
+12700871808380 : placing fence for:0 waiting for: 2
+12700871815784 : explicit flush: waiting for fence on: 1
+12700871845579 : Fence available: 1
+12700871865208 : Fence available: 2
+12700871943993 : placing fence for:1 waiting for: 3
+12700872016176 : placing fence for:2 waiting for: 0
+12700872021900 : explicit flush: waiting for fence on: 3
+12700872049037 : Fence available: 3
+12700872068531 : Fence available: 0
+12700872193267 : placing fence for:3 waiting for: 1
+12700872310357 : placing fence for:0 waiting for: 2
+12700872316208 : explicit flush: waiting for fence on: 1
+12700872394828 : Fence available: 1
+12700872423477 : Fence available: 2
+12700872505169 : placing fence for:1 waiting for: 3
+12700872527896 : placing fence for:2 waiting for: 0
+12700872533393 : explicit flush: waiting for fence on: 3
+12700872585219 : Fence available: 3
+12700872615901 : Fence available: 0
+12700872776687 : Fence available: 1
+12700872798074 : Fence available: 2
+paint[14]: duration= 16.627444 ms.
+Counts: blue = 3117225 white = 868452 others = 14323
+Writing file: /home/marlin/ssbo/EllipseFillParallelTest-14.png
+12701299337424 : placing fence for:3 waiting for: -1
+12701299514709 : placing fence for:0 waiting for: -1
+12701299634809 : placing fence for:1 waiting for: 3
+12701299736441 : placing fence for:2 waiting for: 0
+12701299755442 : explicit flush: waiting for fence on: 3
+12701300781339 : Fence available: 3
+12701300844904 : Fence available: 0
+12701300896904 : placing fence for:3 waiting for: 1
+12701301033641 : placing fence for:0 waiting for: 2
+12701301042047 : explicit flush: waiting for fence on: 1
+12701301101672 : Fence available: 1
+12701301122428 : Fence available: 2
+12701301161410 : placing fence for:1 waiting for: 3
+12701301257966 : placing fence for:2 waiting for: 0
+12701301267682 : explicit flush: waiting for fence on: 3
+12701301317858 : Fence available: 3
+12701301345855 : Fence available: 0
+12701301522901 : placing fence for:3 waiting for: 1
+12701301692680 : placing fence for:0 waiting for: 2
+12701301700203 : explicit flush: waiting for fence on: 1
+12701301750585 : Fence available: 1
+12701301773753 : Fence available: 2
+12701301908570 : placing fence for:1 waiting for: 3
+12701301949505 : placing fence for:2 waiting for: 0
+12701301958269 : explicit flush: waiting for fence on: 3
+12701302007682 : Fence available: 3
+12701302030056 : Fence available: 0
+12701302091031 : placing fence for:3 waiting for: 1
+12701302137154 : placing fence for:0 waiting for: 2
+12701302142159 : explicit flush: waiting for fence on: 1
+12701302176633 : Fence available: 1
+12701302199748 : Fence available: 2
+12701302238193 : placing fence for:1 waiting for: 3
+12701302329900 : placing fence for:2 waiting for: 0
+12701302337891 : explicit flush: waiting for fence on: 3
+12701302368257 : Fence available: 3
+12701302388768 : Fence available: 0
+12701302484176 : placing fence for:3 waiting for: 1
+12701302514776 : placing fence for:0 waiting for: 2
+12701302523621 : explicit flush: waiting for fence on: 1
+12701302553331 : Fence available: 1
+12701302572139 : Fence available: 2
+12701302614059 : placing fence for:1 waiting for: 3
+12701302641074 : placing fence for:2 waiting for: 0
+12701302649533 : explicit flush: waiting for fence on: 3
+12701302686726 : Fence available: 3
+12701302706267 : Fence available: 0
+12701302841447 : placing fence for:3 waiting for: 1
+12701302926566 : placing fence for:0 waiting for: 2
+12701302934120 : explicit flush: waiting for fence on: 1
+ion 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 1
+VTX Sync needed for region 2
+MASK Sync needed for region 1
+MASK Sync needed for region 2
+FlushMaskCache(sync) do sync: done
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+queueMaskQuad: VTX adding sync on region 0
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+queueMaskQuad: VTX adding sync on region 1
+Queu12701302980762 : Fence available: 1
+12701302996911 : Fence available: 2
+12701303081637 : placing fence for:1 waiting for: 3
+12701303195640 : placing fence for:2 waiting for: 0
+12701303201589 : explicit flush: waiting for fence on: 3
+12701303237617 : Fence available: 3
+12701303256795 : Fence available: 0
+12701303395458 : placing fence for:3 waiting for: 1
+12701303424635 : placing fence for:0 waiting for: 2
+12701303436805 : explicit flush: waiting for fence on: 1
+12701303468606 : Fence available: 1
+12701303488153 : Fence available: 2
+12701303568865 : placing fence for:1 waiting for: 3
+12701303596503 : placing fence for:2 waiting for: 0
+12701303601215 : explicit flush: waiting for fence on: 3
+12701303630473 : Fence available: 3
+12701303649871 : Fence available: 0
+12701303702885 : placing fence for:3 waiting for: 1
+12701303737024 : placing fence for:0 waiting for: 2
+12701303745880 : explicit flush: waiting for fence on: 1
+12701303776000 : Fence available: 1
+12701303793738 : Fence available: 2
+12701303834122 : placing fence for:1 waiting for: 3
+12701303901911 : placing fence for:2 waiting for: 0
+12701303908670 : explicit flush: waiting for fence on: 3
+12701303953523 : Fence available: 3
+12701303976730 : Fence available: 0
+12701304074058 : placing fence for:3 waiting for: 1
+12701304206268 : placing fence for:0 waiting for: 2
+12701304217161 : explicit flush: waiting for fence on: 1
+12701304257816 : Fence available: 1
+12701304277895 : Fence available: 2
+12701304370544 : placing fence for:1 waiting for: 3
+12701304458220 : placing fence for:2 waiting for: 0
+12701304468543 : explicit flush: waiting for fence on: 3
+12701304516316 : Fence available: 3
+12701304537600 : Fence available: 0
+12701304585935 : placing fence for:3 waiting for: 1
+12701304713377 : placing fence for:0 waiting for: 2
+12701304722568 : explicit flush: waiting for fence on: 1
+12701304763480 : Fence available: 1
+12701304786495 : Fence available: 2
+12701304940732 : placing fence for:1 waiting for: 3
+12701305060188 : placing fence for:2 waiting for: 0
+12701305066808 : explicit flush: waiting for fence on: 3
+12701305107219 : Fence available: 3
+12701305131418 : Fence available: 0
+12701305211091 : placing fence for:3 waiting for: 1
+12701305235964 : placing fence for:0 waiting for: 2
+12701305241599 : explicit flush: waiting for fence on: 1
+12701305275377 : Fence available: 1
+12701305311157 : Fence available: 2
+12701305428986 : placing fence for:1 waiting for: 3
+12701305453511 : placing fence for:2 waiting for: 0
+12701305459073 : explicit flush: waiting for fence on: 3
+12701305492287 : Fence available: 3
+12701305510854 : Fence available: 0
+12701305653325 : Fence available: 1
+12701305667475 : Fence available: 2
+paint[15]: duration= 7.193429 ms.
+Counts: blue = 3143623 white = 841874 others = 14503
+Writing file: /home/marlin/ssbo/EllipseFillParallelTest-15.png
+12701735554749 : placing fence for:3 waiting for: -1
+12701735733631 : placing fence for:0 waiting for: -1
+12701735779110 : placing fence for:1 waiting for: 3
+12701735815698 : placing fence for:2 waiting for: 0
+12701735836229 : explicit flush: waiting for fence on: 3
+12701736199149 : Fence available: 3
+12701736266552 : Fence available: 0
+12701736445994 : placing fence for:3 waiting for: 1
+12701736572785 : placing fence for:0 waiting for: 2
+12701736593197 : explicit flush: waiting for fence on: 1
+12701736676559 : Fence available: 1
+12701736706841 : Fence available: 2
+12701736883547 : placing fence for:1 waiting for: 3
+12701737018774 : placing fence for:2 waiting for: 0
+12701737090252 : explicit flush: waiting for fence on: 3
+12701737146905 : Fence available: 3
+12701737169285 : Fence available: 0
+12701737349967 : placing fence for:3 waiting for: 1
+12701737476412 : placing fence for:0 waiting for: 2
+12701737484695 : explicit flush: waiting for fence on: 1
+12701737536109 : Fence available: 1
+12701737558685 : Fence available: 2
+12701737607667 : placing fence for:1 waiting for: 3
+12701737633945 : placing fence for:2 waiting for: 0
+12701737640029 : explicit flush: waiting for fence on: 3
+12701737680683 : Fence available: 3
+12701737701793 : Fence available: 0
+12701737745976 : placing fence for:3 waiting for: 1
+12701737788742 : placing fence for:0 waiting for: 2
+12701737800635 : explicit flush: waiting for fence on: 1
+12701737925187 : Fence available: 1
+12701737947488 : Fence available: 2
+12701738044083 : placing fence for:1 waiting for: 3
+12701738126957 : placing fence for:2 waiting for: 0
+12701738137008 : explicit flush: waiting for fence on: 3
+12701738174017 : Fence available: 3
+12701738195208 : Fence available: 0
+12701738232596 : placing fence for:3 waiting for: 1
+12701738252311 : placing fence for:0 waiting for: 2
+12701738258678 : explicit flush: waiting for fence on: 1
+12701738367098 : Fence available: 1
+12701738412094 : Fence available: 2
+12701738457093 : placing fence for:1 waiting for: 3
+12701738485345 : placing fence for:2 waiting for: 0
+12701738492047 : explicit flush: waiting for fence on: 3
+12701738541545 : Fence available: 3
+12701738573698 : Fence available: 0
+12701738727173 : placing fence for:3 waiting for: 1
+12701738810823 : placing fence for:0 waiting for: 2
+12701738817597 : explicit flush: waiting for fence on: 1
+eMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 1
+VTX Sync needed for region 2
+MASK Sync needed for region 1
+MASK Sync needed for region 2
+FlushMaskCache(sync) do sync: done
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+queueMaskQuad: VTX adding sync on region 0
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskB12701738882039 : Fence available: 1
+12701738917079 : Fence available: 2
+12701739008987 : placing fence for:1 waiting for: 3
+12701739042503 : placing fence for:2 waiting for: 0
+12701739049529 : explicit flush: waiting for fence on: 3
+12701739085631 : Fence available: 3
+12701739117358 : Fence available: 0
+12701739169685 : placing fence for:3 waiting for: 1
+12701739197715 : placing fence for:0 waiting for: 2
+12701739204038 : explicit flush: waiting for fence on: 1
+12701739248568 : Fence available: 1
+12701739278741 : Fence available: 2
+12701739338768 : placing fence for:1 waiting for: 3
+12701739413526 : placing fence for:2 waiting for: 0
+12701739418920 : explicit flush: waiting for fence on: 3
+12701739451949 : Fence available: 3
+12701739474180 : Fence available: 0
+12701739608643 : placing fence for:3 waiting for: 1
+12701739692273 : placing fence for:0 waiting for: 2
+12701739702598 : explicit flush: waiting for fence on: 1
+12701739735369 : Fence available: 1
+12701739754023 : Fence available: 2
+12701739805158 : placing fence for:1 waiting for: 3
+12701739882826 : placing fence for:2 waiting for: 0
+12701739888919 : explicit flush: waiting for fence on: 3
+12701739919414 : Fence available: 3
+12701739939509 : Fence available: 0
+12701740073791 : placing fence for:3 waiting for: 1
+12701740202341 : placing fence for:0 waiting for: 2
+12701740208938 : explicit flush: waiting for fence on: 1
+12701740255860 : Fence available: 1
+12701740276741 : Fence available: 2
+12701740368803 : placing fence for:1 waiting for: 3
+12701740445667 : placing fence for:2 waiting for: 0
+12701740451115 : explicit flush: waiting for fence on: 3
+12701740482384 : Fence available: 3
+12701740502705 : Fence available: 0
+12701740635821 : placing fence for:3 waiting for: 1
+12701740767560 : placing fence for:0 waiting for: 2
+12701740776829 : explicit flush: waiting for fence on: 1
+12701740808167 : Fence available: 1
+12701740826601 : Fence available: 2
+12701740921115 : placing fence for:1 waiting for: 3
+12701740957314 : placing fence for:2 waiting for: 0
+12701740968491 : explicit flush: waiting for fence on: 3
+12701740998969 : Fence available: 3
+12701741018499 : Fence available: 0
+12701741111568 : placing fence for:3 waiting for: 1
+12701741184638 : placing fence for:0 waiting for: 2
+12701741190925 : explicit flush: waiting for fence on: 1
+12701741218270 : Fence available: 1
+12701741242530 : Fence available: 2
+12701741285490 : placing fence for:1 waiting for: 3
+12701741338802 : placing fence for:2 waiting for: 0
+12701741348608 : explicit flush: waiting for fence on: 3
+12701741395772 : Fence available: 3
+12701741419746 : Fence available: 0
+12701741559855 : Fence available: 1
+12701741574313 : Fence available: 2
+paint[16]: duration= 6.304996 ms.
+Counts: blue = 3138216 white = 847298 others = 14486
+Writing file: /home/marlin/ssbo/EllipseFillParallelTest-16.png
+Max error reached (10): exit.
+ufferFence: wait on region 1
+queueMaskQuad: VTX adding sync on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+QueueMaskBufferFence: create fence on region 3
+QueueMaskBufferFence: wait on region 1
+queueMaskQuad: VTX adding sync on region 2
+queueMaskQuad: VTX waiting for fence on region 0, vtxPer: 680
+QueueMaskBufferFence: create fence on region 0
+QueueMaskBufferFence: wait on region 2
+QueueMaskBufferFence: create fence on region 1
+QueueMaskBufferFence: wait on region 3
+QueueMaskBufferFence: create fence on region 2
+QueueMaskBufferFence: wait on region 0
+FlushMaskCache(sync) do sync: enter
+VTX Sync needed for region 1
+VTX Sync needed for region 2
+MASK Sync needed for region 1
+MASK Sync needed for region 2
+FlushMaskCache(sync) do sync: done
